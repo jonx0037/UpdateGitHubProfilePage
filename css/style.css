@@ -16,6 +16,10 @@ body {
   background-size: cover;
 }
 
+.profile-image {
+  background: url(img/profile.jpg);
+}
+
 @media (min-width: 992px) {
     body {
         padding-top: 0;
