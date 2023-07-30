@@ -11,11 +11,6 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-<head><style>.name {
-    color: #fff;
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
 @media (min-width: 992px) {
     body {
         padding-top: 0;
@@ -40,7 +35,7 @@ h1 {
     line-height: 5.5rem;
 }
 
-</style></head><body><div><span class="name">Jonathan</span></div></body>h2 {
+h2 {
     font-size: 3.5rem;
 }
 
