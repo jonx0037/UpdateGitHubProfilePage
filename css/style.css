@@ -6,10 +6,9 @@ body {
     color: #868e96;
 }
 
-.selected-text,
-.subheading {
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
+.selected-text, .subheading {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
 }
 
 @media (min-width: 992px) {
