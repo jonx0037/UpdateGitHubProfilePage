@@ -10,45 +10,37 @@ body {
 .subheading {
     background-color: rgba(0, 0, 0, 0.5);
 }
-<head>
-    <style>
-        .name {
-            color: #fff;
-            background-color: rgba(0, 0, 0, 0.5);
-        }
 
-        @media (min-width: 992px) {
-            body {
-                padding-top: 0;
-                padding-left: 17rem;
-            }
-        }
+<head><style>.name {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+}
 
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6 {
-            font-family: 'Saira Extra Condensed', serif;
-            font-weight: 700;
-            text-transform: uppercase;
-            color: #343a40;
-        }
-    </style>
-</head>
+@media (min-width: 992px) {
+    body {
+        padding-top: 0;
+        padding-left: 17rem;
+    }
+}
 
-<body>
-    <div>
-        <span class="name">Jonathan</span>
-    </div>
-</body>
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Saira Extra Condensed', serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #343a40;
+}
+
 h1 {
     font-size: 6rem;
     line-height: 5.5rem;
 }
 
-h2 {
+</style></head><body><div><span class="name">Jonathan</span></div></body>h2 {
     font-size: 3.5rem;
 }
 
