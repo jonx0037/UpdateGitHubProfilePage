@@ -11,6 +11,11 @@ body {
   color: white;
 }
 
+#sideNav {
+  background-image: url('img/navbar-background.jpg');
+  background-size: cover;
+}
+
 @media (min-width: 992px) {
     body {
         padding-top: 0;
