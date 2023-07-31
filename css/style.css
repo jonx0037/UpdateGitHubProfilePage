@@ -276,13 +276,11 @@ section.resume-section .resume-item .resume-date {
                    PORTFOLIO
 ======================================================*/
 
-#portfolio {
-    padding: 100px 0;
-}
-
-.portfolio {
+.portfolio-section {
+  padding: 100px 0;
   background-image: url(img/wallpaper.png);
   background-size: cover;
+  background-color: #a1a1a1; /* Fallback background color */
 }
 
 .port-head-cont {
