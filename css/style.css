@@ -20,6 +20,11 @@ body {
   background: url(img/profile.jpg);
 }
 
+.btn:hover {
+  background-color: red;
+  color: white;
+}
+
 @media (min-width: 992px) {
     body {
         padding-top: 0;
