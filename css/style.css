@@ -280,7 +280,7 @@ section.resume-section .resume-item .resume-date {
   padding: 100px 0;
   background-image: url("../img/wallpaper.png");
   background-size: cover;
-  background-color: #a1a1a1; /* Fallback background color */
+  background-color: #c1c1c1; /* Fallback background color */
 }
 
 .port-head-cont {
