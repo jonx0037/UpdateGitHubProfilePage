@@ -711,24 +711,25 @@ section.resume-section .resume-item .resume-date {
 /*====================================================
                    CONTACT
 ======================================================*/
-
 #contact {
     padding: 50px 0;
+    background-color: #333; /* Set the background color to a dark color */
 }
 
 #contact .contact-cont h3 {
-    color: #555;
+    color: #fff; /* Set the text color to white */
     font-size: 45px;
 }
 
 #contact .contact-cont p {
     padding-right: 20px;
     font-size: 15px;
+    color: #ccc; /* Set the text color to a light gray */
 }
 
 #contact .contact-cont2 address,
 #contact .contact-cont2 address a {
-    color: #666;
+    color: #999; /* Set the text color to a darker gray */
 }
 
 .con-form input {
@@ -736,6 +737,7 @@ section.resume-section .resume-item .resume-date {
     border-radius: 0;
     color: #717171;
     margin-top: 30px;
+    background-color: #666; /* Set the input background color to a darker gray */
 }
 
 .con-form textarea {
@@ -745,6 +747,7 @@ section.resume-section .resume-item .resume-date {
     border-color: #ccc;
     border-radius: 0;
     color: #717171;
+    background-color: #666; /* Set the textarea background color to a darker gray */
 }
 
 .contact-side-desc {
@@ -752,7 +755,7 @@ section.resume-section .resume-item .resume-date {
 }
 
 .contact-box-desc h3 {
-    color: #555;
+    color: #fff; /* Set the text color to white */
 }
 
 .contact-box-desc h3 i {
@@ -771,6 +774,8 @@ section.resume-section .resume-item .resume-date {
     text-align: center;
     margin-right: 10px;
     border-radius: 50%;
+    color: #fff; /* Set the icon color to white */
+    background-color: #666; /* Set the icon background color to a darker gray */
 }
 
 @media(max-width: 767px) {
@@ -785,6 +790,7 @@ section.resume-section .resume-item .resume-date {
         border-color: #ccc;
         border-radius: 0;
         color: #717171;
+        background-color: #666; /* Set the textarea background color to a darker gray */
     }
 
     .contact-box-desc {
