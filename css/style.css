@@ -7,40 +7,24 @@ body {
 }
 
 /*NAME ON HERO IMAGE*/
-.selected-text, .subheading {
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
+.selected-text,
+.subheading {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
 }
 
 /*MY-BIO*/
 .my-bio {
-  background-color: rgba(50, 50, 50, 0.5);
-  color: white;
+    background-color: rgba(50, 50, 50, 0.5);
+    color: white;
 }
 
 .sideNav {
-  background-image: url('img/navbar-background.png');
-  background-color: #020459; /* Fallback background color */
+    background-image: url('img/navbar-background.png');
+    background-color: #020459;
+    /* Fallback background color */
 }
 
-/*NAVBAR-NAV*/
-.navbar-nav {
-  background-color: rgba(50, 50, 50, 0.5);
-}
-
-/*PROFILE IMAGE*/
-.profile-image {
-  background: url(img/profile.jpg);
-}
-
-.btn:hover {
-    background-color: rgb(11, 48, 112); 
-    color: white;
-  }
-.btn:active {
-  background-color: rgb(22, 96, 224); /* Change the color to light blue */
-  color: #2596f9;
-}
 
 @media (min-width: 992px) {
     body {
@@ -49,7 +33,12 @@ body {
     }
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Saira Extra Condensed', serif;
     font-weight: 700;
     text-transform: uppercase;
@@ -74,6 +63,7 @@ a:focus,
 a:active {
     color: #0f72c1;
 }
+
 .subheading {
     text-transform: uppercase;
     font-weight: 500;
@@ -110,6 +100,27 @@ a:active {
 #sideNav .navbar-nav .nav-item .nav-link {
     font-weight: 600;
     text-transform: uppercase;
+}
+
+/*NAVBAR-NAV*/
+.navbar-nav {
+    background-color: rgba(50, 50, 50, 0.5);
+}
+
+/*PROFILE IMAGE*/
+.profile-image {
+    background: url(img/profile.jpg);
+}
+
+.btn:hover {
+    background-color: rgb(11, 48, 112);
+    color: white;
+}
+
+.btn:active {
+    background-color: rgb(22, 96, 224);
+    /* Change the color to light blue */
+    color: #2596f9;
 }
 
 @media (min-width: 992px) {
@@ -271,10 +282,11 @@ section.resume-section .resume-item .resume-date {
 ======================================================*/
 
 #portfolio {
-  padding: 100px 0;
-  background-image: url("../img/wallpaper.png");
-  background-size: cover;
-  background-color: #c1c1c1; /* Fallback background color */
+    padding: 100px 0;
+    background-image: url("../img/wallpaper.png");
+    background-size: cover;
+    background-color: #c1c1c1;
+    /* Fallback background color */
 }
 
 .port-head-cont {
@@ -487,8 +499,10 @@ section.resume-section .resume-item .resume-date {
 }
 
 #award-box {
-  background-color: #333; /* Dark background color */
-  color: #fff; /* Light text color */
+    background-color: #333;
+    /* Dark background color */
+    color: #fff;
+    /* Light text color */
 }
 
 #award-box {
@@ -713,23 +727,27 @@ section.resume-section .resume-item .resume-date {
 ======================================================*/
 #contact {
     padding: 50px 0;
-    background-color: #333; /* Set the background color to a dark color */
+    background-color: #333;
+    /* Set the background color to a dark color */
 }
 
 #contact .contact-cont h3 {
-    color: #fff; /* Set the text color to white */
+    color: #fff;
+    /* Set the text color to white */
     font-size: 45px;
 }
 
 #contact .contact-cont p {
     padding-right: 20px;
     font-size: 15px;
-    color: #ccc; /* Set the text color to a light gray */
+    color: #ccc;
+    /* Set the text color to a light gray */
 }
 
 #contact .contact-cont2 address,
 #contact .contact-cont2 address a {
-    color: #999; /* Set the text color to a darker gray */
+    color: #999;
+    /* Set the text color to a darker gray */
 }
 
 .con-form input {
@@ -737,7 +755,8 @@ section.resume-section .resume-item .resume-date {
     border-radius: 0;
     color: #717171;
     margin-top: 30px;
-    background-color: #666; /* Set the input background color to a darker gray */
+    background-color: #666;
+    /* Set the input background color to a darker gray */
 }
 
 .con-form textarea {
@@ -747,7 +766,8 @@ section.resume-section .resume-item .resume-date {
     border-color: #ccc;
     border-radius: 0;
     color: #717171;
-    background-color: #666; /* Set the textarea background color to a darker gray */
+    background-color: #666;
+    /* Set the textarea background color to a darker gray */
 }
 
 .contact-side-desc {
@@ -755,7 +775,8 @@ section.resume-section .resume-item .resume-date {
 }
 
 .contact-box-desc h3 {
-    color: #fff; /* Set the text color to white */
+    color: #fff;
+    /* Set the text color to white */
 }
 
 .contact-box-desc h3 i {
@@ -774,8 +795,10 @@ section.resume-section .resume-item .resume-date {
     text-align: center;
     margin-right: 10px;
     border-radius: 50%;
-    color: #fff; /* Set the icon color to white */
-    background-color: #666; /* Set the icon background color to a darker gray */
+    color: #fff;
+    /* Set the icon color to white */
+    background-color: #666;
+    /* Set the icon background color to a darker gray */
 }
 
 @media(max-width: 767px) {
@@ -790,7 +813,8 @@ section.resume-section .resume-item .resume-date {
         border-color: #ccc;
         border-radius: 0;
         color: #717171;
-        background-color: #666; /* Set the textarea background color to a darker gray */
+        background-color: #666;
+        /* Set the textarea background color to a darker gray */
     }
 
     .contact-box-desc {
@@ -828,6 +852,7 @@ section.resume-section .resume-item .resume-date {
     width: 100%;
     position: absolute;
 }
+
 .resume-section {
     background-color: #333;
     color: #fff;
