@@ -499,7 +499,14 @@ section.resume-section .resume-item .resume-date {
 ======================================================*/
 
 #awards {
-    background: #333;
+  background: #4f4f4f;
+  --dark-theme-color: #333;
+  --dark-theme-background: #000;
+}
+
+#awards * {
+  color: var(--dark-theme-color);
+  background-color: var(--dark-theme-background);
 }
 
 #award-box {
