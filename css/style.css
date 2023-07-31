@@ -11,10 +11,6 @@ body {
   color: white;
 }
 
-#sideNav {
-  background-image: url('img/navbar-background.png');
-}
-
 .navbar {
   background-image: url('img/navbar-background.png');
 }
