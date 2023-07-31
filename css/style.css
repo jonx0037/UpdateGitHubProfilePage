@@ -279,6 +279,11 @@ section.resume-section .resume-item .resume-date {
     padding: 100px 0;
 }
 
+.portfolio-section {
+  background-image: url(img/wallpaper.png);
+  background-size: cover;
+}
+
 .port-head-cont {
     margin: 20px auto 40px auto;
     text-align: center;
