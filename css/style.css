@@ -270,7 +270,7 @@ section.resume-section .resume-item .resume-date {
 #experience, #experience * {
    background: #4f4f4f;
    --dark-theme-color: #333;
-   --dark-theme-background: #333;
+   --dark-theme-background: #000;
    color: var(--dark-theme-color);
    background-color: var(--dark-theme-background);
 }
@@ -501,7 +501,7 @@ section.resume-section .resume-item .resume-date {
 #awards {
   background: #4f4f4f;
   --dark-theme-color: #333;
-  --dark-theme-background: #333;
+  --dark-theme-background: #000;
 }
 
 #awards * {
