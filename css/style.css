@@ -11,9 +11,8 @@ body {
   color: white;
 }
 
-.sideNav {
+.navbar {
   background-image: url('img/navbar-background.png');
-  background-size: cover;
 }
 
 .profile-image {
