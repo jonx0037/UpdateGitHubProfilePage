@@ -12,9 +12,9 @@ body {
   color: white;
 }
 
-/*NAVBAR*/
 .sideNav {
   background-image: url('img/navbar-background.png');
+  background-color: #f1f1f1; /* Fallback background color */
 }
 
 /*PROFILE IMAGE*/
