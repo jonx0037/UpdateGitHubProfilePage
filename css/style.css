@@ -89,7 +89,7 @@ a:active {
 }
 
 .list-social-icons a:hover {
-    color: ​#2196f3;
+    color: ​#2164a6;
 }
 
 .list-social-icons a .fa-lg {
@@ -101,7 +101,7 @@ a:active {
 }
 
 .list-icons .list-inline-item i:hover {
-    color: ​#2196f3;
+    color: ​#2164a6;
 }
 
 /*==================================================
@@ -174,26 +174,26 @@ a:active {
 }
 
 .btn-white {
-    border-color: ​#2196f3;
-    background-color: ​#2196f3;
+    border-color: ​#2164a6;
+    background-color: ​#2164a6;
     color: #fff;
 }
 
 .btn-white:hover,
 .btn-white:focus {
     background-color: transparent;
-    color: ​#2196f3;
+    color: ​#2164a6;
     cursor: pointer;
 }
 
 .btn-green {
-    border-color: ​#2196f3;
-    color: ​#2196f3;
+    border-color: ​#2164a6;
+    color: ​#2164a6;
 }
 
 .btn-green:hover,
 .btn-green:focus {
-    background-color: ​#2196f3;
+    background-color: ​#2164a6;
     color: #fff;
     cursor: pointer;
 }
@@ -204,7 +204,7 @@ a:active {
 .heading-border {
     width: 60px;
     height: 10px;
-    background-color: ​#2196f3;
+    background-color: ​#2164a6;
     margin: 0 auto 20px auto;
 }
 
@@ -236,11 +236,11 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-    background-color: ​#2196f3 !important;
+    background-color: ​#2164a6 !important;
 }
 
 .text-primary {
-    color: ​#2196f3 !important;
+    color: ​#2164a6 !important;
 }
 
 /*==================================================
@@ -458,7 +458,7 @@ section.resume-section .resume-item .resume-date {
 }
 
 .skill-item i {
-    color: ​#2196f3;
+    color: ​#2164a6;
 }
 
 .skill-item h2 {
@@ -756,7 +756,7 @@ section.resume-section .resume-item .resume-date {
 }
 
 .contact-box-desc h3 i {
-    color: ​#2196f3;
+    color: ​#2164a6;
 }
 
 .social-icon-f li {
@@ -767,7 +767,7 @@ section.resume-section .resume-item .resume-date {
     height: 35px;
     width: 35px;
     line-height: 35px;
-    border: 2px solid ​#2196f3;
+    border: 2px solid ​#2164a6;
     text-align: center;
     margin-right: 10px;
     border-radius: 50%;
