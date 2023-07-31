@@ -22,9 +22,12 @@ body {
   background: url(img/profile.jpg);
 }
 
-.btn:hover,
+.btn:hover {
+    background-color: rgb(4, 22, 54); 
+    color: white;
+  }
 .btn:active {
-  background-color: rgb(4, 22, 54); /* Change the color to light blue */
+  background-color: rgb(22, 96, 224); /* Change the color to light blue */
   color: white;
 }
 
