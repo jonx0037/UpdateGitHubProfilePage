@@ -17,6 +17,11 @@ body {
   background-color: #020459; /* Fallback background color */
 }
 
+/*NAVBAR-NAV*/
+.navbar-nav {
+  background-color: rgba(50, 50, 50, 0.5);
+}
+
 /*PROFILE IMAGE*/
 .profile-image {
   background: url(img/profile.jpg);
