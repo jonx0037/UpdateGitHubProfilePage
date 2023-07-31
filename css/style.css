@@ -828,3 +828,40 @@ section.resume-section .resume-item .resume-date {
     width: 100%;
     position: absolute;
 }
+.resume-section {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.resume-section h3 {
+    font-size: 45px;
+}
+
+.resume-section p {
+    padding-right: 20px;
+    font-size: 15px;
+}
+
+.resume-section address,
+.resume-section address a {
+    color: #999;
+}
+
+.resume-section input,
+.resume-section textarea {
+    border-color: #ccc;
+    border-radius: 0;
+    color: #717171;
+    margin-top: 30px;
+    background-color: #666;
+}
+
+.resume-section textarea {
+    height: 200px;
+}
+
+.resume-section .social-icon-f li i {
+    color: #fff;
+    background-color: #666;
+}
