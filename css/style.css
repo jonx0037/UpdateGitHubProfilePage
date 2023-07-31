@@ -6,21 +6,25 @@ body {
     color: #868e96;
 }
 
+/*NAME ON HERO IMAGE*/
 .selected-text, .subheading {
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
 }
 
+/*NAVBAR*/
 .sideNav {
   background-image: url('img/navbar-background.png');
 }
 
+/*PROFILE IMAGE*/
 .profile-image {
   background: url(img/profile.jpg);
 }
 
-.btn:hover {
-  background-color: rgb(4 22 54);
+.btn:hover,
+.btn:active {
+  background-color: rgb(4, 22, 54); /* Change the color to light blue */
   color: white;
 }
 
