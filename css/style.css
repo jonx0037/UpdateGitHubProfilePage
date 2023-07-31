@@ -493,6 +493,11 @@ section.resume-section .resume-item .resume-date {
 }
 
 #award-box {
+  background-color: #333; /* Dark background color */
+  color: #fff; /* Light text color */
+}
+
+#award-box {
     overflow: hidden;
     position: relative;
     padding: 60px 0;
