@@ -70,6 +70,7 @@ a:active {
     font-family: 'Saira Extra Condensed', serif;
     font-size: 1.35rem;
 }
+
 .resume-section {
     background-color: #333;
     color: #fff;
@@ -107,6 +108,7 @@ a:active {
     color: #fff;
     background-color: #666;
 }
+
 /*==================================================
                   SOCIAL-ICON
 ====================================================*/
@@ -303,18 +305,21 @@ section.resume-section .resume-item .resume-date {
 /*==================================================
                     EXPERIENCE
 ====================================================*/
-#experience, #experience * {
-   background: #4f4f4f;
-   --dark-theme-color: #333;
-   color: var(--dark-theme-color);
+:root {
+    --dark-theme-color: #333;
+    --text-color: #ffffff;
+}
+
+#experience {
+    background: var(--dark-theme-color);
+    color: var(--text-color);
 }
 
 #experience .card h4 {
-   font-family: 'Roboto Condensed', sans-serif;
-   text-transform: none;
-   color: #8a8a8a;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: none;
+    color: var(--text-color);
 }
-
 /*====================================================
                    PORTFOLIO
 ======================================================*/
@@ -533,8 +538,8 @@ section.resume-section .resume-item .resume-date {
 ======================================================*/
 
 #awards {
-  background: #4f4f4f;
-  --dark-theme-color: #333;
+    background: #4f4f4f;
+    --dark-theme-color: #333;
 }
 
 #award-box {
@@ -891,4 +896,3 @@ section.resume-section .resume-item .resume-date {
     width: 100%;
     position: absolute;
 }
-
