@@ -25,6 +25,10 @@ body {
     /* Fallback background color */
 }
 
+.logo-image {
+  width: 200px;
+}
+
 
 @media (min-width: 992px) {
     body {
