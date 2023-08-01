@@ -320,16 +320,15 @@ section.resume-section .resume-item .resume-date {
     text-transform: none;
     color: var(--text-color);
 }
+
 /*====================================================
                    PORTFOLIO
 ======================================================*/
 
 #portfolio {
     padding: 100px 0;
-    background-image: url("../img/wallpaper.png");
     background-size: cover;
-    background-color: #c1c1c1;
-    /* Fallback background color */
+    background-color: #333333;
 }
 
 .port-head-cont {
@@ -358,8 +357,6 @@ section.resume-section .resume-item .resume-date {
     position: absolute;
     width: 100%;
     height: 100%;
-    -webkit-transition: all ease 0.5s;
-    -moz-transition: all ease 0.5s;
     transition: all ease 0.5s;
     opacity: 0;
     background: rgba(54, 160, 245, 0.73);
@@ -378,10 +375,6 @@ section.resume-section .resume-item .resume-date {
     margin-top: -12px;
     text-align: center;
     color: white;
-}
-
-#portfolio .portfolio-item .portfolio-link .caption-port .caption-port-content i {
-    margin-top: -12px;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption-port .caption-port-content h3,
@@ -408,17 +401,11 @@ section.resume-section .resume-item .resume-date {
     border: none;
     border-radius: 0;
     background-clip: border-box;
-    -webkit-box-shadow: none;
     box-shadow: none;
 }
 
 .portfolio-modal .title-bar {
     padding: 0 0 50px 0;
-}
-
-.portfolio-modal .title-bar h1 {
-    visibility: initial;
-    animation-name: initial;
 }
 
 .portfolio-modal .modal-dialog .modal-content {
@@ -450,26 +437,18 @@ section.resume-section .resume-item .resume-date {
 }
 
 .portfolio-modal .close-modal .lr {
-    /* Safari and Chrome */
     z-index: 1051;
     width: 1px;
     height: 75px;
     margin-left: 35px;
-    /* IE 9 */
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
     transform: rotate(45deg);
     background-color: #2C3E50;
 }
 
 .portfolio-modal .close-modal .lr .rl {
-    /* Safari and Chrome */
     z-index: 1052;
     width: 1px;
     height: 75px;
-    /* IE 9 */
-    -webkit-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
     transform: rotate(90deg);
     background-color: #2C3E50;
 }
