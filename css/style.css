@@ -6,19 +6,29 @@ body {
     color: #868e96;
 }
 
-.selected-text, .subheading {
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
+/*NAME ON HERO IMAGE*/
+.selected-text,
+.subheading {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+/*MY-BIO*/
+.my-bio {
+    background-color: rgba(50, 50, 50, 0.5);
+    color: white;
 }
 
 .sideNav {
-  background-image: url('img/navbar-background.jpg');
-  background-size: cover;
+    background-image: url('img/navbar-background.png');
+    background-color: #020459;
+    /* Fallback background color */
 }
 
-.profile-image {
-  background: url(img/profile.jpg);
+.logo-image {
+  width: 200px;
 }
+
 
 @media (min-width: 992px) {
     body {
@@ -36,7 +46,7 @@ h6 {
     font-family: 'Saira Extra Condensed', serif;
     font-weight: 700;
     text-transform: uppercase;
-    color: #343a40;
+    color: #317bc5;
 }
 
 h1 {
@@ -49,13 +59,13 @@ h2 {
 }
 
 a {
-    color: #2196f3;
+    color: #2164a6;
 }
 
 a:hover,
 a:focus,
 a:active {
-    color: #0f72c1;
+    color: #cb2849;
 }
 
 .subheading {
@@ -63,6 +73,44 @@ a:active {
     font-weight: 500;
     font-family: 'Saira Extra Condensed', serif;
     font-size: 1.35rem;
+}
+
+.resume-section {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.resume-section h3 {
+    font-size: 45px;
+}
+
+.resume-section p {
+    padding-right: 20px;
+    font-size: 15px;
+}
+
+.resume-section address,
+.resume-section address a {
+    color: #999;
+}
+
+.resume-section input,
+.resume-section textarea {
+    border-color: #ccc;
+    border-radius: 0;
+    color: #717171;
+    margin-top: 30px;
+    background-color: #666;
+}
+
+.resume-section textarea {
+    height: 200px;
+}
+
+.resume-section .social-icon-f li i {
+    color: #fff;
+    background-color: #666;
 }
 
 /*==================================================
@@ -73,7 +121,7 @@ a:active {
 }
 
 .list-social-icons a:hover {
-    color: ​#2196f3;
+    color: ​#2164a6;
 }
 
 .list-social-icons a .fa-lg {
@@ -85,7 +133,7 @@ a:active {
 }
 
 .list-icons .list-inline-item i:hover {
-    color: ​#2196f3;
+    color: ​#2164a6;
 }
 
 /*==================================================
@@ -94,6 +142,30 @@ a:active {
 #sideNav .navbar-nav .nav-item .nav-link {
     font-weight: 600;
     text-transform: uppercase;
+}
+
+/*NAVBAR-NAV*/
+.navbar-nav {
+    background-color: rgba(50, 50, 50, 0.5);
+}
+
+/*PROFILE IMAGE*/
+.profile-image {
+    background: url(img/profile.jpg);
+}
+
+.btn {
+    background-color: rgb(94, 94, 94);
+    color: white;
+}
+
+.btn:hover {
+    background-color: rgb(11, 48, 112);
+}
+
+.btn:active {
+    background-color: rgb(22, 96, 224);
+    color: #2596f9;
 }
 
 @media (min-width: 992px) {
@@ -158,26 +230,26 @@ a:active {
 }
 
 .btn-white {
-    border-color: ​#2196f3;
-    background-color: ​#2196f3;
+    border-color: ​#2164a6;
+    background-color: ​#2164a6;
     color: #fff;
 }
 
 .btn-white:hover,
 .btn-white:focus {
     background-color: transparent;
-    color: ​#2196f3;
+    color: ​#2164a6;
     cursor: pointer;
 }
 
 .btn-green {
-    border-color: ​#2196f3;
-    color: ​#2196f3;
+    border-color: ​#2164a6;
+    color: ​#2164a6;
 }
 
 .btn-green:hover,
 .btn-green:focus {
-    background-color: ​#2196f3;
+    background-color: ​#2164a6;
     color: #fff;
     cursor: pointer;
 }
@@ -188,7 +260,7 @@ a:active {
 .heading-border {
     width: 60px;
     height: 10px;
-    background-color: ​#2196f3;
+    background-color: ​#2164a6;
     margin: 0 auto 20px auto;
 }
 
@@ -220,11 +292,11 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-    background-color: ​#2196f3 !important;
+    background-color: ​#2164a6 !important;
 }
 
 .text-primary {
-    color: ​#2196f3 !important;
+    color: ​#2164a6 !important;
 }
 
 /*==================================================
@@ -240,14 +312,20 @@ section.resume-section .resume-item .resume-date {
 /*==================================================
                     EXPERIENCE
 ====================================================*/
+:root {
+    --dark-theme-color: #333;
+    --text-color: #ffffff;
+}
+
 #experience {
-    background: #f5f5f5;
+    background: var(--dark-theme-color);
+    color: var(--text-color);
 }
 
 #experience .card h4 {
     font-family: 'Roboto Condensed', sans-serif;
     text-transform: none;
-    color: #555;
+    color: var(--text-color);
 }
 
 /*====================================================
@@ -256,6 +334,8 @@ section.resume-section .resume-item .resume-date {
 
 #portfolio {
     padding: 100px 0;
+    background-size: cover;
+    background-color: #333333;
 }
 
 .port-head-cont {
@@ -284,8 +364,6 @@ section.resume-section .resume-item .resume-date {
     position: absolute;
     width: 100%;
     height: 100%;
-    -webkit-transition: all ease 0.5s;
-    -moz-transition: all ease 0.5s;
     transition: all ease 0.5s;
     opacity: 0;
     background: rgba(54, 160, 245, 0.73);
@@ -304,10 +382,6 @@ section.resume-section .resume-item .resume-date {
     margin-top: -12px;
     text-align: center;
     color: white;
-}
-
-#portfolio .portfolio-item .portfolio-link .caption-port .caption-port-content i {
-    margin-top: -12px;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption-port .caption-port-content h3,
@@ -334,17 +408,11 @@ section.resume-section .resume-item .resume-date {
     border: none;
     border-radius: 0;
     background-clip: border-box;
-    -webkit-box-shadow: none;
     box-shadow: none;
 }
 
 .portfolio-modal .title-bar {
     padding: 0 0 50px 0;
-}
-
-.portfolio-modal .title-bar h1 {
-    visibility: initial;
-    animation-name: initial;
 }
 
 .portfolio-modal .modal-dialog .modal-content {
@@ -376,26 +444,18 @@ section.resume-section .resume-item .resume-date {
 }
 
 .portfolio-modal .close-modal .lr {
-    /* Safari and Chrome */
     z-index: 1051;
     width: 1px;
     height: 75px;
     margin-left: 35px;
-    /* IE 9 */
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
     transform: rotate(45deg);
     background-color: #2C3E50;
 }
 
 .portfolio-modal .close-modal .lr .rl {
-    /* Safari and Chrome */
     z-index: 1052;
     width: 1px;
     height: 75px;
-    /* IE 9 */
-    -webkit-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
     transform: rotate(90deg);
     background-color: #2C3E50;
 }
@@ -439,7 +499,7 @@ section.resume-section .resume-item .resume-date {
 }
 
 .skill-item i {
-    color: ​#2196f3;
+    color: ​#1a4774;
 }
 
 .skill-item h2 {
@@ -464,7 +524,13 @@ section.resume-section .resume-item .resume-date {
 ======================================================*/
 
 #awards {
-    background: #f0f0f0;
+    background: #333;
+    --dark-theme-color: #333;
+}
+
+#award-box {
+    background-color: #333;
+    color: #fff;
 }
 
 #award-box {
@@ -477,7 +543,7 @@ section.resume-section .resume-item .resume-date {
     content: "";
     width: 1px;
     height: 100%;
-    background: #cfcdcd;
+    background: #999;
     position: absolute;
     top: 0;
     left: 50%;
@@ -501,10 +567,10 @@ section.resume-section .resume-item .resume-date {
     content: "";
     width: 11px;
     height: 11px;
-    background: #cfcdcd;
+    background: #999;
     box-sizing: content-box;
-    border: 5px solid #fff;
-    box-shadow: 0 0 0 2px #cfcdcd;
+    border: 5px solid #333;
+    box-shadow: 0 0 0 2px #999;
     position: absolute;
     top: -54px;
     right: -11px;
@@ -524,8 +590,8 @@ section.resume-section .resume-item .resume-date {
 #award-box .award-icon {
     width: 24px;
     height: 24px;
-    background: #fff;
-    border: 1px solid #cfcdcd;
+    background: #333;
+    border: 1px solid #999;
     position: absolute;
     top: 17px;
     right: -13px;
@@ -538,7 +604,7 @@ section.resume-section .resume-item .resume-date {
     display: block;
     width: 15px;
     height: 15px;
-    background: #fff;
+    background: #333;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -553,7 +619,7 @@ section.resume-section .resume-item .resume-date {
 #award-box .award-content {
     width: 85%;
     padding: 18px 30px;
-    background: #fff;
+    background: #333;
     text-align: right;
     float: left;
     border: 1px solid transparent;
@@ -562,7 +628,7 @@ section.resume-section .resume-item .resume-date {
 }
 
 #award-box .award:hover .award-content {
-    border: 1px solid #cfcdcd;
+    border: 1px solid #999;
 }
 
 #award-box .award-content:before {
@@ -570,8 +636,8 @@ section.resume-section .resume-item .resume-date {
     display: block;
     width: 14px;
     height: 14px;
-    background: #fff;
-    border: 1px solid #cfcdcd;
+    background: #333;
+    border: 1px solid #999;
     position: absolute;
     top: 21px;
     right: -7.3px;
@@ -588,7 +654,7 @@ section.resume-section .resume-item .resume-date {
     content: "";
     width: 11%;
     height: 1px;
-    background: #cfcdcd;
+    background: #999;
     position: absolute;
     top: 28px;
     right: -14%;
@@ -604,12 +670,12 @@ section.resume-section .resume-item .resume-date {
 }
 
 #award-box .award:hover .date {
-    color: #444;
+    color: #fff;
 }
 
 #award-box .title {
     font-size: 18px;
-    color: #444;
+    color: #fff;
     margin-top: 0;
     transition: all 0.3s ease 0s;
 }
@@ -620,7 +686,7 @@ section.resume-section .resume-item .resume-date {
 
 #award-box .description {
     font-size: 16px;
-    color: #777;
+    color: #bbb;
     line-height: 28px;
     margin-top: 8px;
 }
@@ -687,24 +753,29 @@ section.resume-section .resume-item .resume-date {
 /*====================================================
                    CONTACT
 ======================================================*/
-
 #contact {
     padding: 50px 0;
+    background-color: #333;
+    /* Set the background color to a dark color */
 }
 
 #contact .contact-cont h3 {
-    color: #555;
+    color: #fff;
+    /* Set the text color to white */
     font-size: 45px;
 }
 
 #contact .contact-cont p {
     padding-right: 20px;
     font-size: 15px;
+    color: #ccc;
+    /* Set the text color to a light gray */
 }
 
 #contact .contact-cont2 address,
 #contact .contact-cont2 address a {
-    color: #666;
+    color: #999;
+    /* Set the text color to a darker gray */
 }
 
 .con-form input {
@@ -712,6 +783,8 @@ section.resume-section .resume-item .resume-date {
     border-radius: 0;
     color: #717171;
     margin-top: 30px;
+    background-color: #666;
+    /* Set the input background color to a darker gray */
 }
 
 .con-form textarea {
@@ -721,6 +794,8 @@ section.resume-section .resume-item .resume-date {
     border-color: #ccc;
     border-radius: 0;
     color: #717171;
+    background-color: #666;
+    /* Set the textarea background color to a darker gray */
 }
 
 .contact-side-desc {
@@ -728,11 +803,12 @@ section.resume-section .resume-item .resume-date {
 }
 
 .contact-box-desc h3 {
-    color: #555;
+    color: #fff;
+    /* Set the text color to white */
 }
 
 .contact-box-desc h3 i {
-    color: ​#2196f3;
+    color: ​#2164a6;
 }
 
 .social-icon-f li {
@@ -743,10 +819,14 @@ section.resume-section .resume-item .resume-date {
     height: 35px;
     width: 35px;
     line-height: 35px;
-    border: 2px solid ​#2196f3;
+    border: 2px solid ​#2164a6;
     text-align: center;
     margin-right: 10px;
     border-radius: 50%;
+    color: #fff;
+    /* Set the icon color to white */
+    background-color: #666;
+    /* Set the icon background color to a darker gray */
 }
 
 @media(max-width: 767px) {
@@ -761,6 +841,8 @@ section.resume-section .resume-item .resume-date {
         border-color: #ccc;
         border-radius: 0;
         color: #717171;
+        background-color: #666;
+        /* Set the textarea background color to a darker gray */
     }
 
     .contact-box-desc {
