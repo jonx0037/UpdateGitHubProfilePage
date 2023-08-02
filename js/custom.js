@@ -29,16 +29,25 @@
 
 function validateForm() {
 
+  // Get first and last name instead of full name
+  const firstName = document.getElementById('firstName');
+  const lastName = document.getElementById('lastName');
+
+  // Validate length of each field
+  if (firstName.value.length < 2) {
+    alert('First name required');
+    return false;
+  }
+
+  if (lastName.value.length < 2) {
+    alert('Last name required');
+    return false;
+  }
+
   // Get form fields
   const name = document.getElementById('name');
   const email = document.getElementById('email');
   const message = document.getElementById('message');
-
-  // Name validation
-  if (name.value.length < 2) {
-    alert('Name must be at least 2 characters');
-    return false;
-  }
 
   // Email validation
   if (!email.value.match(/^[\w\-\.]+@[\w\-]+\.[a-z]{2,4}$/i)) {
