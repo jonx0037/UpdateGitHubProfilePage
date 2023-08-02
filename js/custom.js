@@ -27,25 +27,32 @@
 
 })(jQuery); // End of use strict
 
-// Get form fields
-const name = document.getElementById('name');
-const email = document.getElementById('email');
-const message = document.getElementById('message');
+function validateForm() {
 
-// Name validation
-if (name.value.length < 2) {
-  alert('Name must be at least 2 characters');
-  return false;
-}
+  // Get form fields
+  const name = document.getElementById('name');
+  const email = document.getElementById('email');
+  const message = document.getElementById('message');
 
-// Email validation
-if (!email.value.match(/^[\w\-\.]+@[\w\-]+\.[a-z]{2,4}$/i)) {
-  alert('Invalid email');
-  return false;
-}
+  // Name validation
+  if (name.value.length < 2) {
+    alert('Name must be at least 2 characters');
+    return false;
+  }
 
-// Message length validation
-if (message.value.length < 10) {
-  alert('Message must be at least 10 characters');
-  return false;
+  // Email validation
+  if (!email.value.match(/^[\w\-\.]+@[\w\-]+\.[a-z]{2,4}$/i)) {
+    alert('Invalid email');
+    return false;
+  }
+
+  // Message length validation
+  if (message.value.length < 10) {
+    alert('Message must be at least 10 characters');
+    return false;
+  }
+
+  // If everything validates
+  return true;
+
 }
