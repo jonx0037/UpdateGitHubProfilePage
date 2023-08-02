@@ -168,6 +168,13 @@ a:active {
     color: #2596f9;
 }
 
+@media (max-width: 767px) {
+    #logo {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
 @media (min-width: 992px) {
     #sideNav {
         text-align: center;
