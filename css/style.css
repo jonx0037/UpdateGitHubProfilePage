@@ -767,26 +767,26 @@ section.resume-section .resume-item .resume-date {
 ======================================================*/
 #contact {
     padding: 50px 0;
-    background-color: #333;
+    background-color: var(--contact-background-color);
 }
 
-#contact .contact-cont h3 {
+.contact-cont h3 {
     color: #fff;
-    font-size: 45px;
+    font-size: var(--heading-font-size);
 }
 
-#contact .contact-cont p {
+.contact-cont p {
     padding-right: 20px;
-    font-size: 15px;
-    color: #ccc;
+    font-size: var(--main-font-size);
+    color: var(--main-font-color);
 }
 
-#contact .contact-cont2 address,
-#contact .contact-cont2 address a {
+.contact-cont2 address,
+.contact-cont2 address a {
     color: #999;
 }
 
-#contact .contact-cont,
+.contact-cont,
 .con-form,
 .contact-add,
 .contact-phone,
@@ -796,11 +796,11 @@ section.resume-section .resume-item .resume-date {
 
 .con-form input,
 .con-form textarea {
-    border-color: #ccc;
+    border-color: var(--main-font-color);
     border-radius: 0;
     color: #717171;
     margin-top: 30px;
-    background-color: #666;
+    background-color: var(--form-background-color);
 }
 
 .con-form textarea {
@@ -810,7 +810,7 @@ section.resume-section .resume-item .resume-date {
 }
 
 @media(max-width: 767px) {
-    #contact-p2 .con-form input {
+    .con-form input {
         margin-bottom: 30px;
     }
 
@@ -823,10 +823,8 @@ section.resume-section .resume-item .resume-date {
     }
 }
 
-@media (max-width: 575px),
-(max-width: 420px) {
-
-    #contact .social-icon-f,
+@media (max-width: 575px) {
+    .social-icon-f,
     .contact-box-desc {
         text-align: center;
     }
