@@ -1,5 +1,14 @@
 /*GENERAL STYLE*/
 
+:root {
+    --contact-background-color: #333;
+    --main-font-color: #ccc;
+    --form-background-color: #666;
+    --main-font-size: 15px;
+    --heading-font-size: 45px;
+}
+
+
 body {
     font-family: 'Open Sans', serif;
     padding-top: 54px;
