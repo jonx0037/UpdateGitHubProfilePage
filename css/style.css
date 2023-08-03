@@ -26,7 +26,7 @@ body {
 }
 
 .logo-image {
-  width: 200px;
+    width: 200px;
 }
 
 
@@ -152,7 +152,7 @@ a:active {
 .logo-container img {
     max-width: 100%;
     height: auto;
-  }
+}
 
 /*PROFILE IMAGE*/
 .profile-image {
@@ -175,10 +175,10 @@ a:active {
 
 @media (max-width: 767px) {
     #logo {
-      max-width: 100%;
-      height: auto;
+        max-width: 100%;
+        height: auto;
     }
-  }
+}
 
 @media (min-width: 992px) {
     #sideNav {
@@ -788,6 +788,30 @@ section.resume-section .resume-item .resume-date {
 #contact .contact-cont2 address a {
     color: #999;
     /* Set the text color to a darker gray */
+}
+
+body {
+    padding-top: 70px;
+}
+
+.contact-cont {
+    margin-top: 50px;
+}
+
+.con-form {
+    margin-top: 30px;
+}
+
+.contact-add {
+    margin-top: 30px;
+}
+
+.contact-phone {
+    margin-top: 30px;
+}
+
+.contact-mail {
+    margin-top: 30px;
 }
 
 .con-form input {
