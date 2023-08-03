@@ -1,14 +1,5 @@
 /*GENERAL STYLE*/
 
-.contact {
-    --contact-background-color: #333;
-    --main-font-color: #ccc;
-    --form-background-color: #666;
-    --main-font-size: 15px;
-    --heading-font-size: 45px;
-}
-
-
 body {
     font-family: 'Open Sans', serif;
     padding-top: 54px;
@@ -779,6 +770,14 @@ section.resume-section .resume-item .resume-date {
     background-color: var(--contact-background-color);
 }
 
+.contact {
+    --contact-background-color: #333;
+    --main-font-color: #ccc;
+    --form-background-color: #666;
+    --main-font-size: 15px;
+    --heading-font-size: 45px;
+}
+
 .contact-cont h3 {
     color: #fff;
     font-size: var(--heading-font-size);
@@ -790,8 +789,8 @@ section.resume-section .resume-item .resume-date {
     color: var(--main-font-color);
 }
 
-.contact-cont2 address,
-.contact-cont2 address a {
+.address,
+.address a {
     color: #999;
 }
 
@@ -805,7 +804,7 @@ section.resume-section .resume-item .resume-date {
 
 .con-form input,
 .con-form textarea {
-    border-color: var(--main-font-color);
+    border: 1px solid var(--main-font-color);
     border-radius: 0;
     color: #717171;
     margin-top: 30px;
@@ -818,7 +817,7 @@ section.resume-section .resume-item .resume-date {
     margin: 30px 0;
 }
 
-@media(max-width: 767px) {
+@media (max-width: 767px) {
     .con-form input {
         margin-bottom: 30px;
     }
@@ -827,14 +826,16 @@ section.resume-section .resume-item .resume-date {
         margin: 10px 0 30px 0;
     }
 
-    .contact-box-desc {
+    .contact-box-desc,
+    .social-icon-f {
         text-align: center;
     }
 }
 
 @media (max-width: 575px) {
-    .social-icon-f,
-    .contact-box-desc {
+
+    .contact-box-desc,
+    .social-icon-f {
         text-align: center;
     }
 }
