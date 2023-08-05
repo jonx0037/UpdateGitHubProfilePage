@@ -809,7 +809,7 @@ section.resume-section .resume-item .resume-date {
     text-align: left;
     color: var(--main-font-color);
     margin-top: 20px;
-    margin-left: 80px;
+    margin-left: 70px;
 }
 
 .form-group input,
@@ -821,7 +821,7 @@ section.resume-section .resume-item .resume-date {
     background-color: var(--form-background-color);
     color: var(--main-font-color);
     margin-top: 10px;
-    margin-left: 80px;
+    margin-left: 70px;
 }
 
 .form-group button {
