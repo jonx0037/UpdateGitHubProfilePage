@@ -807,7 +807,7 @@ section.resume-section .resume-item .resume-date {
 .form-group input,
 .form-group textarea {
     display: block;
-    width: 100%;
+    width: 70%;
     padding: 10px;
     border: none;
     background-color: var(--form-background-color);
@@ -817,19 +817,22 @@ section.resume-section .resume-item .resume-date {
 
 .form-group button {
     display: block;
-    width: 100%;
+    width: 50%;
     padding: 10px;
     background-color: #fff;
     color: var(--contact-background-color);
     border: none;
     margin-top: 20px;
+    margin-left: 20px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
 .form-group button:hover {
     background-color: #ccc;
-}.map-responsive {
+}
+
+.map-responsive {
     overflow: hidden;
     padding-bottom: 50%;
     position: relative;
