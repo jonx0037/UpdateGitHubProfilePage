@@ -1,17 +1,16 @@
 /*GENERAL STYLE*/
 
 body {
-    font-family: 'Open Sans', serif;
-    padding-top: 54px;
+    font: normal 400 16px/1.5 'Open Sans', serif;
     color: #868e96;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    padding: 54px 0 0 0;
     margin: 0;
-    padding: 0;
-    /* Add other styles as needed */
 }
+
 
 /*NAME ON HERO IMAGE*/
 .selected-text,
