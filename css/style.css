@@ -841,10 +841,14 @@ section.resume-section .resume-item .resume-date {
 }
 
 @media (max-width: 767px) {
-    .con-form input {
-        margin-bottom: 30px;
+    .con-form input,
+    .con-form label,
+    .con-form button {
+        width: 70%;
+        margin: 0 auto;
+        display: block;
     }
-
+}
     .con-form textarea {
         margin: 10px 0 30px 0;
     }
