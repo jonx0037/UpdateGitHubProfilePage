@@ -825,8 +825,8 @@ section.resume-section .resume-item .resume-date {
     display: block;
     width: 50%;
     padding: 10px;
-    background-color: #fff;
-    color: #333;
+    background-color: #2596f9;
+    color: #fff;
     border: none;
     margin-top: 20px;
     margin-left: 120px;
@@ -835,7 +835,7 @@ section.resume-section .resume-item .resume-date {
 }
 
 .form-group button:hover {
-    background-color: #2596f9;
+    background-color: #6b767f;
     font: #fff
 }
 
