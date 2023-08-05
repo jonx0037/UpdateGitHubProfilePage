@@ -773,117 +773,63 @@ section.resume-section .resume-item .resume-date {
     --heading-font-size: 45px;
 }
 
-#contactForm .form-control {
-    width: 70%;
-    /* adjust as needed */
-    margin: 0 auto;
-    /* centers the input fields */
-}
-
-.con-form {
-    margin-left: 20px;
-    /* or use padding-left */
-}
-
 #contact {
     padding: 50px 0;
     background-color: var(--contact-background-color);
-}
-
-.contact {
-    --contact-background-color: #333;
-    --main-font-color: #ccc;
-    --form-background-color: #666;
-    --main-font-size: 15px;
-    --heading-font-size: 45px;
+    color: var(--main-font-color);
+    font-size: var(--main-font-size);
 }
 
 .contact-cont h3 {
     color: #fff;
     font-size: var(--heading-font-size);
+    text-align: center;
 }
 
 .contact-cont p {
-    padding-right: 20px;
-    font-size: var(--main-font-size);
-    color: var(--main-font-color);
-}
-
-.address,
-.address a {
-    color: #999;
-}
-
-.contact-cont,
-.con-form,
-.contact-add,
-.contact-phone,
-.contact-mail {
-    margin-top: 30px;
-}
-
-.con-form input,
-.con-form textarea {
-    border: 1px solid var(--main-font-color);
-    border-radius: 0;
-    color: #717171;
-    background-color: var(--form-background-color);
-}
-
-.form-group {
-    margin-bottom: 0;
-}
-
-.con-form textarea {
-    width: 100%;
-    height: 200px;
-    margin: 30px 0;
+    text-align: center;
+    max-width: 800px;
+    margin: 20px auto;
 }
 
 .form-container {
-    width: 70%;
+    max-width: 600px;
     margin: 0 auto;
 }
 
 .form-group label {
-    text-align: left;
     display: block;
+    text-align: left;
+    color: var(--main-font-color);
+    margin-top: 20px;
 }
 
 .form-group input,
 .form-group textarea {
     display: block;
     width: 100%;
-    text-align: justify;
+    padding: 10px;
+    border: none;
+    background-color: var(--form-background-color);
+    color: var(--main-font-color);
+    margin-top: 10px;
 }
 
 .form-group button {
-    width: 50%; /* adjust as needed to change the size of the button */
-    margin-right: 0; /* aligns the button to the right */
-    margin-left: auto; /* aligns the button to the right */
     display: block;
-}
-.contact-box-desc,
-.social-icon-f {
-    text-align: center;
-}
-
-
-@media (max-width: 575px) {
-
-    .contact-box-desc,
-    .social-icon-f {
-        text-align: center;
-    }
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+    color: var(--contact-background-color);
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
-.contact-cont h3,
-.contact-cont p,
-.form-group label {
-    text-align: center;
-}
-
-.map-responsive {
+.form-group button:hover {
+    background-color: #ccc;
+}.map-responsive {
     overflow: hidden;
     padding-bottom: 50%;
     position: relative;
