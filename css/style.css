@@ -841,23 +841,27 @@ section.resume-section .resume-item .resume-date {
 }
 
 .form-group label,
-    .form-group input,
-    .form-group textarea {
-        width: 70%;
-        margin: 0 auto;
-        display: block;
-    }
-    
-    .form-group button {
-        width: 50%; /* adjust as needed to change the size of the button */
-        margin-right: 0; /* aligns the button to the right */
-        margin-left: auto; /* aligns the button to the right */
-        display: block;
-    }
-    .contact-box-desc,
-    .social-icon-f {
-        text-align: center;
-    }
+.form-group input,
+.form-group textarea {
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+}
+
+.form-group button {
+    width: 50%;
+    /* adjust as needed to change the size of the button */
+    margin-right: 0;
+    /* aligns the button to the right */
+    margin-left: auto;
+    /* aligns the button to the right */
+    display: block;
+}
+
+.contact-box-desc,
+.social-icon-f {
+    text-align: center;
+}
 
 
 @media (max-width: 575px) {
@@ -868,12 +872,10 @@ section.resume-section .resume-item .resume-date {
     }
 }
 
-@media {
-    .contact-cont h3,
-    .contact-cont p,
-    .form-group label {
-        text-align: center;
-    }
+.contact-cont h3,
+.contact-cont p,
+.form-group label {
+    text-align: center;
 }
 
 .map-responsive {
