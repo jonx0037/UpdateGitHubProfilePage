@@ -824,10 +824,12 @@ section.resume-section .resume-item .resume-date {
     border: 1px solid var(--main-font-color);
     border-radius: 0;
     color: #717171;
-    margin-top: 30px;
     background-color: var(--form-background-color);
 }
 
+.form-group {
+    margin-bottom: 0;
+}
 .con-form textarea {
     width: 100%;
     height: 200px;
