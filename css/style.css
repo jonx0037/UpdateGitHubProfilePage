@@ -859,6 +859,14 @@ section.resume-section .resume-item .resume-date {
     }
 }
 
+@media (max-width: 768px) {
+  .contact-cont h3,
+  .contact-cont p,
+  .form-group label {
+    text-align: center;
+  }
+}
+
 .map-responsive {
     overflow: hidden;
     padding-bottom: 50%;
