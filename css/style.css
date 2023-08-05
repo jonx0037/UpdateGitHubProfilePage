@@ -840,7 +840,6 @@ section.resume-section .resume-item .resume-date {
     margin: 30px 0;
 }
 
-@media (max-width: 767px) {
     .form-group label,
     .form-group input,
     .form-group textarea,
@@ -853,11 +852,12 @@ section.resume-section .resume-item .resume-date {
     .form-group button {
         text-align: center;
     }
-}    .contact-box-desc,
+
+    .contact-box-desc,
     .social-icon-f {
         text-align: center;
     }
-}
+
 
 @media (max-width: 575px) {
 
