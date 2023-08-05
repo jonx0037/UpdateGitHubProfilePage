@@ -840,24 +840,29 @@ section.resume-section .resume-item .resume-date {
     margin: 30px 0;
 }
 
-.form-group label,
-.form-group input,
-.form-group textarea {
+.form-container {
     width: 70%;
     margin: 0 auto;
+}
+
+.form-group label {
+    text-align: left;
     display: block;
+}
+
+.form-group input,
+.form-group textarea {
+    display: block;
+    width: 100%;
+    text-align: justify;
 }
 
 .form-group button {
-    width: 50%;
-    /* adjust as needed to change the size of the button */
-    margin-right: 0;
-    /* aligns the button to the right */
-    margin-left: auto;
-    /* aligns the button to the right */
+    width: 50%; /* adjust as needed to change the size of the button */
+    margin-right: 0; /* aligns the button to the right */
+    margin-left: auto; /* aligns the button to the right */
     display: block;
 }
-
 .contact-box-desc,
 .social-icon-f {
     text-align: center;
