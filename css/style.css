@@ -765,6 +765,18 @@ section.resume-section .resume-item .resume-date {
 /*====================================================
                    CONTACT
 ======================================================*/
+:root {
+    --contact-background-color: #333;
+    --main-font-color: #ccc;
+    --form-background-color: #666;
+    --main-font-size: 15px;
+    --heading-font-size: 45px;
+}
+
+.con-form {
+    margin-left: 20px; /* or use padding-left */
+}
+
 #contact {
     padding: 50px 0;
     background-color: var(--contact-background-color);
