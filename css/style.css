@@ -859,7 +859,8 @@ section.resume-section .resume-item .resume-date {
     }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 600px) {
+  /* Styles for screens with a maximum width of 600 pixels */
   .contact-cont h3,
   .contact-cont p,
   .form-group label {
