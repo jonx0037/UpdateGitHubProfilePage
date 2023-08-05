@@ -841,20 +841,19 @@ section.resume-section .resume-item .resume-date {
 }
 
 @media (max-width: 767px) {
-    .con-form input,
-    .con-form label,
-    .con-form textarea,
-    .con-form button {
+    .form-group label,
+    .form-group input,
+    .form-group textarea,
+    .form-group button {
         width: 70%;
         margin: 0 auto;
         display: block;
     }
 
-    .con-form button {
+    .form-group button {
         text-align: center;
     }
-}
-    .contact-box-desc,
+}    .contact-box-desc,
     .social-icon-f {
         text-align: center;
     }
