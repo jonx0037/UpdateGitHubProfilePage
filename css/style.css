@@ -841,7 +841,7 @@ section.resume-section .resume-item .resume-date {
 }
 
 .form-group button:active {
-    background-color: #FF0000; /* Red background when active */
+    background-color: #a70000; /* Red background when active */
     color: #fff; /* White font when active */
 }
 .map-responsive {
