@@ -867,6 +867,10 @@ section.resume-section .resume-item .resume-date {
     color: #fff;
     margin-bottom: 20px;
 }
+.footer .col.text-center.mt-4 {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);  /* Adds a light border */
+    padding-top: 10px;
+}
 
 .map-responsive {
     overflow: hidden;
