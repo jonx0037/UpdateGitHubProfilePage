@@ -773,6 +773,11 @@ section.resume-section .resume-item .resume-date {
     --heading-font-size: 45px;
 }
 
+#contactForm .form-control {
+    width: 70%; /* adjust as needed */
+    margin: 0 auto; /* centers the input fields */
+}
+
 .con-form {
     margin-left: 20px; /* or use padding-left */
 }
