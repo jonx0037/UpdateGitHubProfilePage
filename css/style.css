@@ -292,10 +292,9 @@ section.resume-section .resume-item .resume-date {
 
 .content-bg {
     background-color: rgba(0, 0, 0, 0.5);
-    padding: 5px 15px;
-    /* Adjusted padding for individual backgrounds */
-    margin: 10px 0;
-    /* Some margin to separate the elements a bit */
+    padding: 2px 8px;  /* Reduced padding for a tighter fit */
+    margin: 5px 0;     /* Reduced margin for a closer proximity between elements */
+    display: inline-block;  /* Making it only as wide as its content */
 }
 
 .dark-content {
