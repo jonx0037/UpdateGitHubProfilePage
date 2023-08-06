@@ -593,6 +593,14 @@ section.resume-section .resume-item .resume-date {
     color: #317bc5;
 }
 
+.header-bg {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    padding: 5px 10px;  /* Adjust padding as per your liking */
+    margin: 10px 0;     /* This will give some space around the header */
+    border-radius: 5px; /* Optional: For rounded corners */
+}
+
 .skill-item {
     padding: 20px 0;
     margin-bottom: 30px;
