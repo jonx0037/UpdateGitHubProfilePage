@@ -582,7 +582,8 @@ section.resume-section .resume-item .resume-date {
     flex-direction: column;
     height: 100%;
     padding: 3rem 0;
-    /* Moved inline style here */
+    max-width: 100% !important;
+    width: 100% !important;
 }
 
 .header-bg {
@@ -593,16 +594,8 @@ section.resume-section .resume-item .resume-date {
     border-radius: 5px;
 }
 
-#skills .header-bg h3 {
-    text-align: center;
-    /* Ensure the h3 is centered */
-}
-
-/* Adjusting padding for skill items on desktop */
-@media (min-width: 768px) {
-    .skill-item {
-        padding: 30px 10px;
-    }
+#skills .header-bg h3.text-center {
+    text-align: center !important;
 }
 
 .skill-cover h3 {
@@ -613,12 +606,9 @@ section.resume-section .resume-item .resume-date {
 }
 
 .skill-item {
-    padding: 20px 0;
+    padding: 10px 0;
     margin-bottom: 30px;
     background: rgba(144, 144, 144, 0.78);
-}
-
-.skill-item i {
     color: #1a4774;
 }
 
@@ -636,6 +626,13 @@ section.resume-section .resume-item .resume-date {
     font-family: "hind", sans-serif;
     font-weight: 300;
     margin-top: 0;
+}
+
+/* Adjusting padding for skill items on desktop */
+@media (min-width: 768px) {
+    .skill-item {
+        padding: 30px 10px;
+    }
 }
 
 /*====================================================
