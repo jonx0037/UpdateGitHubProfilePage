@@ -297,41 +297,78 @@ section.resume-section .resume-item .resume-date {
 ====================================================*/
 #about {
     background-image: url(../img/profile-banner.jpg);
+    background-color: #666;
+    /* Fallback color in case the image doesn't load */
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
 }
+
 .dark-content {
-    background-color: #222;
+    background-color: #333;
+    /* Slightly lighter than pure black for better contrast */
     color: #fff;
     font-family: Arial, sans-serif;
-  }
-  
-  .dark-content h1, .dark-content h2, .dark-content h3 {
+}
+
+.dark-content h1,
+.dark-content h2,
+.dark-content h3 {
     color: #fff;
-  }
-  
-  .dark-content img {
-    filter: brightness(50%);
-  }
-  
-  .dark-content section {
+}
+
+.dark-content img {
+    position: relative;
+}
+
+.dark-content img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent overlay */
+}
+
+.dark-content section {
     margin-bottom: 20px;
-  }
-  
-  .dark-content p {
+}
+
+.dark-content p {
     line-height: 1.5;
-  }
-  
-  /* Optional: Add styles for links */
-  .dark-content a {
+}
+
+.dark-content a {
     color: #fff;
     text-decoration: none;
-  }
-  
-  .dark-content a:hover {
+    transition: text-decoration 0.3s;
+}
+
+.dark-content a:hover,
+.dark-content a:focus {
     text-decoration: underline;
-  }
+    outline: none;
+    /* Remove the default focus outline */
+}
+
+/* Responsiveness: Adjust styles for smaller screens */
+@media (max-width: 768px) {
+
+    .dark-content h1,
+    .dark-content h2 {
+        font-size: 24px;
+        /* Smaller font size for headers */
+    }
+
+    .dark-content p {
+        font-size: 16px;
+        /* Adjusting paragraph font size */
+        margin-bottom: 15px;
+    }
+}
+
 /*==================================================
                     EXPERIENCE
 ====================================================*/
@@ -911,6 +948,7 @@ section.resume-section .resume-item .resume-date {
         margin-left: 0;
         margin-right: auto;
     }
+
     .list-social-icons {
         padding-left: 0;
         text-align: center;
