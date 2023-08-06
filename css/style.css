@@ -607,9 +607,13 @@ section.resume-section .resume-item .resume-date {
 .skill-cover {
     display: flex;
     justify-content: center;
+    /* Centers children horizontally */
     align-items: center;
+    /* Centers children vertically */
     flex-direction: column;
-    /* This ensures the children stack vertically */
+    /* Ensures children stack vertically */
+    height: 100%;
+    /* Takes full height of the parent */
 }
 
 .skill-item {
