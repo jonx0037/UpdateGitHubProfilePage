@@ -576,10 +576,22 @@ section.resume-section .resume-item .resume-date {
 ======================================================*/
 
 #skills {
-    background-image: url("../img/bg-stats.jpg");
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    /* Centers children horizontally */
+    align-items: center;
+    /* Centers children vertically */
+    flex-direction: column;
+    /* Ensures children stack vertically */
+    height: 100%;
+    /* Takes full height of the parent */
+}
+
+#skills>.p-3 {
+    width: 100%;
+    /* Ensures the div takes full width */
+    text-align: center;
+    /* Centers the inner content */
 }
 
 .skill-cover {
