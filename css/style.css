@@ -292,9 +292,13 @@ section.resume-section .resume-item .resume-date {
 
 .content-bg {
     background-color: rgba(0, 0, 0, 0.5);
-    padding: 2px 8px;  /* Reduced padding for a tighter fit */
-    margin: 5px 0;     /* Reduced margin for a closer proximity between elements */
-    display: inline-block;  /* Making it only as wide as its content */
+    padding: 2px 8px;
+    margin: 5px 0;
+    display: inline-block;
+}
+
+.subheading, .my-bio {
+    display: inline-block;  /* Making these elements only as wide as their content */
 }
 
 .h1-mimic {
