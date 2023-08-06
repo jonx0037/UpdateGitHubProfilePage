@@ -10,19 +10,6 @@ body {
 }
 
 
-/*NAME ON HERO IMAGE*/
-.selected-text,
-.subheading {
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-}
-
-/*MY-BIO*/
-.my-bio {
-    background-color: rgba(50, 50, 50, 0.5);
-    color: white;
-}
-
 .sideNav {
     background-image: url('img/navbar-background.png');
     background-color: #020459;
