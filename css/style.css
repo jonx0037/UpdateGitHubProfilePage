@@ -863,6 +863,17 @@ section.resume-section .resume-item .resume-date {
     padding-top: 10px;
 }
 
+.footer img {
+    max-width: 200px;
+    /* Adjust as necessary */
+    margin: 0 auto;
+    display: block;
+}
+
+.footer .list-social-icons {
+    text-align: left;
+}
+
 /*==================================================
                   SOCIAL-ICON
 ====================================================*/
