@@ -864,13 +864,21 @@ section.resume-section .resume-item .resume-date {
 }
 
 .footer img {
-    max-width: 200px; /* Adjust as necessary */
+    max-width: 100%; /* Adjust as necessary */
     display: block;
     margin: auto;
 }
 
 .footer .list-social-icons {
     padding-left: 0;
+    text-align: center; /* Center align icons on smaller screens */
+}
+
+@media (min-width: 768px) {
+    /* Adjust breakpoint as needed */
+    .footer .list-social-icons {
+        text-align: left; /* Left align icons on larger screens */
+    }
 }
 
 /*==================================================
