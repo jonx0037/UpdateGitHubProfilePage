@@ -574,28 +574,23 @@ section.resume-section .resume-item .resume-date {
 /*====================================================
                       SKILLS
 ======================================================*/
-
 #skills {
+    background-color: rgba(31, 31, 31, 0.68);
     display: flex;
     justify-content: center;
-    /* Centers children horizontally */
     align-items: center;
-    /* Centers children vertically */
     flex-direction: column;
-    /* Ensures children stack vertically */
     height: 100%;
-    /* Takes full height of the parent */
+    padding: 3rem 0;
+    /* Moved inline style here */
 }
 
-#skills>.p-3 {
-    width: 100%;
-    /* Ensures the div takes full width */
-    text-align: center;
-    /* Centers the inner content */
-}
-
-.skill-cover {
-    background-color: rgba(31, 31, 31, 0.68);
+.header-bg {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 10px 0;
+    border-radius: 5px;
 }
 
 .skill-cover h3 {
@@ -605,29 +600,6 @@ section.resume-section .resume-item .resume-date {
     color: #317bc5;
 }
 
-.header-bg {
-    background-color: rgba(0, 0, 0, 0.5);
-    display: inline-block;
-    padding: 5px 10px;
-    /* Adjust padding as per your liking */
-    margin: 10px 0;
-    /* This will give some space around the header */
-    border-radius: 5px;
-    /* Optional: For rounded corners */
-}
-
-.skill-cover {
-    display: flex;
-    justify-content: center;
-    /* Centers children horizontally */
-    align-items: center;
-    /* Centers children vertically */
-    flex-direction: column;
-    /* Ensures children stack vertically */
-    height: 100%;
-    /* Takes full height of the parent */
-}
-
 .skill-item {
     padding: 20px 0;
     margin-bottom: 30px;
@@ -635,12 +607,12 @@ section.resume-section .resume-item .resume-date {
 }
 
 .skill-item i {
-    color: ​#1a4774;
+    color: #1a4774;
 }
 
 .skill-item h2 {
     color: #fff;
-    font-size: "hind", sans-serif;
+    font-family: "hind", sans-serif;
     font-size: 35px;
     font-weight: 700;
     margin-top: 15px;
@@ -650,7 +622,6 @@ section.resume-section .resume-item .resume-date {
 .skill-item p {
     color: #fff;
     font-family: "hind", sans-serif;
-    /*text-transform: uppercase;*/
     font-weight: 300;
     margin-top: 0;
 }
