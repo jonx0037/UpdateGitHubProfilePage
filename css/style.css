@@ -849,9 +849,8 @@ section.resume-section .resume-item .resume-date {
         margin-bottom: 20px;
     }
 
-    ul {
-        list-style: none;
-        padding: 0;
+    p {
+        margin-bottom: 15px; /* Adjust as needed */
     }
 
     a,
