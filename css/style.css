@@ -290,18 +290,20 @@ section.resume-section .resume-item .resume-date {
     background-repeat: no-repeat;
 }
 
-.content-bg {
+.h1-mimic,
+.subheading,
+.my-bio {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 2px 8px;
     margin: 5px 0;
-    display: inline-block;  /* Keeps the snug fit for the background */
+    display: inline-block;
+    /* Ensures the snug fit for the background */
 }
 
 .h1-mimic {
     font-size: 2em;
     font-weight: bold;
     color: #fff;
-    background-color: transparent;
     height: 40px;
     margin: 0;
 }
