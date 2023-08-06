@@ -877,11 +877,10 @@ section.resume-section .resume-item .resume-date {
 
     img {
         max-width: 100%;
-        /* Adjust as necessary */
         display: block;
-        margin: auto;
+        margin-left: 0;
+        margin-right: auto;
     }
-
     .list-social-icons {
         padding-left: 0;
         text-align: center;
