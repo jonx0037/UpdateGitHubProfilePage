@@ -290,19 +290,23 @@ section.resume-section .resume-item .resume-date {
     background-repeat: no-repeat;
 }
 
+/* New wrapper div styling */
+.content-bg {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    /* Providing some spacing for the content inside */
+}
+
 .dark-content {
     background-color: #333;
     color: #fff;
     font-family: Arial, sans-serif;
     padding-left: 50px;
-    /* Added padding to avoid pushing against the navbar on desktop */
 }
 
-/* Adjusting for mobile views where the navbar might be on top or hidden */
 @media (max-width: 768px) {
     .dark-content {
         padding-left: 15px;
-        /* Less padding for mobile views */
     }
 }
 
@@ -355,18 +359,15 @@ section.resume-section .resume-item .resume-date {
     outline: none;
 }
 
-/* Responsiveness: Adjust styles for smaller screens */
 @media (max-width: 768px) {
 
     .dark-content h1,
     .dark-content h2 {
         font-size: 24px;
-        /* Smaller font size for headers */
     }
 
     .dark-content p {
         font-size: 16px;
-        /* Adjusting paragraph font size */
         margin-bottom: 15px;
     }
 }
