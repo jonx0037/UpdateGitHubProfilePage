@@ -297,6 +297,17 @@ section.resume-section .resume-item .resume-date {
     display: inline-block;  /* Making it only as wide as its content */
 }
 
+.h1-mimic {
+    font-size: 2em;
+    font-weight: bold;
+    color: #fff;
+    background-color: transparent;
+    /* Removed the background here */
+    height: 40px;
+    margin: 0;
+    /* Removed margins to fit within its wrapper */
+}
+
 .dark-content {
     background-color: #333;
     color: #fff;
@@ -308,17 +319,6 @@ section.resume-section .resume-item .resume-date {
     .dark-content {
         padding-left: 15px;
     }
-}
-
-.h1-mimic {
-    font-size: 2em;
-    font-weight: bold;
-    color: #fff;
-    background-color: transparent;
-    /* Removed the background here */
-    height: 40px;
-    margin: 0;
-    /* Removed margins to fit within its wrapper */
 }
 
 .dark-content h2,
