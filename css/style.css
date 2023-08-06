@@ -312,24 +312,48 @@ section.resume-section .resume-item .resume-date {
     background-color: #333;
     color: #fff;
     font-family: Arial, sans-serif;
-    padding-left: 50px;
+    padding: 20px 50px;
+    /* Added top and bottom padding, and right padding */
+    box-sizing: border-box;
+    /* Ensures padding doesn't add to the width */
 }
 
+/* Responsiveness for smaller devices */
 @media (max-width: 768px) {
     .dark-content {
-        padding-left: 15px;
+        padding: 15px;
+        /* Uniform padding for mobile views */
     }
 }
 
-.dark-content h2,
-.dark-content h3 {
+.dark-content h1 {
+    font-size: 2.5em;
+    /* Making h1 more distinctive */
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 20px;
+    /* Providing some space below the h1 */
+}
+
+.dark-content h2 {
     font-size: 2em;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 25px;
+    /* Spacing between sections */
+}
+
+.dark-content h3 {
+    font-size: 1.5em;
+    /* Making h3 smaller than h2 */
     font-weight: bold;
     color: #fff;
 }
 
 .dark-content img {
     position: relative;
+    max-width: 100%;
+    /* Ensure image doesn't overflow container */
 }
 
 .dark-content img::before {
@@ -362,11 +386,21 @@ section.resume-section .resume-item .resume-date {
     outline: none;
 }
 
+/* Mobile-specific adjustments */
 @media (max-width: 768px) {
+    .dark-content h1 {
+        font-size: 1.8em;
+        /* Adjusting h1 size for mobile */
+    }
 
-    .dark-content h1,
     .dark-content h2 {
-        font-size: 24px;
+        font-size: 1.5em;
+        /* Adjusting h2 size for mobile */
+    }
+
+    .dark-content h3 {
+        font-size: 1.2em;
+        /* Adjusting h3 size for mobile */
     }
 
     .dark-content p {
