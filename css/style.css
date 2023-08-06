@@ -301,7 +301,37 @@ section.resume-section .resume-item .resume-date {
     background-position: center center;
     background-repeat: no-repeat;
 }
-
+.dark-content {
+    background-color: #222;
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  
+  .dark-content h1, .dark-content h2, .dark-content h3 {
+    color: #fff;
+  }
+  
+  .dark-content img {
+    filter: brightness(50%);
+  }
+  
+  .dark-content section {
+    margin-bottom: 20px;
+  }
+  
+  .dark-content p {
+    line-height: 1.5;
+  }
+  
+  /* Optional: Add styles for links */
+  .dark-content a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .dark-content a:hover {
+    text-decoration: underline;
+  }
 /*==================================================
                     EXPERIENCE
 ====================================================*/
