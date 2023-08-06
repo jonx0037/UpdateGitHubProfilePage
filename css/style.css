@@ -864,10 +864,13 @@ section.resume-section .resume-item .resume-date {
 }
 
 .footer img {
-    max-width: 400px;
-    /* Adjust as necessary */
-    margin: 0 auto;
+    max-width: 200px; /* Adjust as necessary */
     display: block;
+    margin: auto;
+}
+
+.footer .list-social-icons {
+    padding-left: 0;
 }
 
 /*==================================================
@@ -891,9 +894,6 @@ section.resume-section .resume-item .resume-date {
 
 .list-icons .list-inline-item i:hover {
     color: #2164a6;
-}
-.footer .list-social-icons {
-    text-align: left;
 }
 
 .map-responsive {
