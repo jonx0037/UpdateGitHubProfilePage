@@ -850,7 +850,8 @@ section.resume-section .resume-item .resume-date {
     }
 
     p {
-        margin-bottom: 15px; /* Adjust as needed */
+        margin-bottom: 15px;
+        /* Adjust as needed */
     }
 
     a,
@@ -866,6 +867,12 @@ section.resume-section .resume-item .resume-date {
         border-top: 1px solid rgba(255, 255, 255, 0.2);
         /* Adds a light border */
         padding-top: 10px;
+    }
+
+    .logo-social-icons-container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
     }
 
     img {
