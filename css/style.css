@@ -294,11 +294,7 @@ section.resume-section .resume-item .resume-date {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 2px 8px;
     margin: 5px 0;
-    display: inline-block;
-}
-
-.subheading, .my-bio {
-    display: inline-block;  /* Making these elements only as wide as their content */
+    display: inline-block;  /* Keeps the snug fit for the background */
 }
 
 .h1-mimic {
@@ -306,10 +302,8 @@ section.resume-section .resume-item .resume-date {
     font-weight: bold;
     color: #fff;
     background-color: transparent;
-    /* Removed the background here */
     height: 40px;
     margin: 0;
-    /* Removed margins to fit within its wrapper */
 }
 
 .dark-content {
