@@ -870,10 +870,6 @@ section.resume-section .resume-item .resume-date {
     display: block;
 }
 
-.footer .list-social-icons {
-    text-align: left;
-}
-
 /*==================================================
                   SOCIAL-ICON
 ====================================================*/
@@ -895,6 +891,9 @@ section.resume-section .resume-item .resume-date {
 
 .list-icons .list-inline-item i:hover {
     color: #2164a6;
+}
+.footer .list-social-icons {
+    text-align: left;
 }
 
 .map-responsive {
