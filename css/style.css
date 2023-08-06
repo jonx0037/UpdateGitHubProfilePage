@@ -593,6 +593,18 @@ section.resume-section .resume-item .resume-date {
     border-radius: 5px;
 }
 
+#skills .header-bg h3 {
+    text-align: center;
+    /* Ensure the h3 is centered */
+}
+
+/* Adjusting padding for skill items on desktop */
+@media (min-width: 768px) {
+    .skill-item {
+        padding: 30px 10px;
+    }
+}
+
 .skill-cover h3 {
     font-family: "hind", sans-serif;
     font-size: 35px;
