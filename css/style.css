@@ -290,11 +290,12 @@ section.resume-section .resume-item .resume-date {
     background-repeat: no-repeat;
 }
 
-/* New wrapper div styling */
 .content-bg {
     background-color: rgba(0, 0, 0, 0.5);
-    padding: 15px;
-    /* Providing some spacing for the content inside */
+    padding: 5px 15px;
+    /* Adjusted padding for individual backgrounds */
+    margin: 10px 0;
+    /* Some margin to separate the elements a bit */
 }
 
 .dark-content {
@@ -310,19 +311,22 @@ section.resume-section .resume-item .resume-date {
     }
 }
 
-.dark-content h1,
-.dark-content h2,
-.dark-content h3,
 .h1-mimic {
     font-size: 2em;
     font-weight: bold;
     color: #fff;
+    background-color: transparent;
+    /* Removed the background here */
+    height: 40px;
+    margin: 0;
+    /* Removed margins to fit within its wrapper */
 }
 
-.h1-mimic {
-    background-color: rgba(0, 0, 0, 0.5);
-    height: 40px;
-    margin: 16px 0;
+.dark-content h2,
+.dark-content h3 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #fff;
 }
 
 .dark-content img {
