@@ -307,6 +307,16 @@ section.resume-section .resume-item .resume-date {
     background-color: #333;
     color: #fff;
     font-family: Arial, sans-serif;
+    padding-left: 50px;
+    /* Added padding to avoid pushing against the navbar on desktop */
+}
+
+/* Adjusting for mobile views where the navbar might be on top or hidden */
+@media (max-width: 768px) {
+    .dark-content {
+        padding-left: 15px;
+        /* Less padding for mobile views */
+    }
 }
 
 .dark-content h1,
@@ -321,9 +331,7 @@ section.resume-section .resume-item .resume-date {
 .h1-mimic {
     background-color: rgba(0, 0, 0, 0.5);
     height: 40px;
-    /* Adjust the height to fit the text */
     margin: 16px 0;
-    /* Mimic h1 margins */
 }
 
 .dark-content img {
