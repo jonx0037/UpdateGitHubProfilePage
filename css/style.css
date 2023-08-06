@@ -585,9 +585,7 @@ section.resume-section .resume-item .resume-date {
     width: 100% !important;
     /* Placeholder for your background image */
     background-image: url('path_to_your_image.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    background: url('path_to_your_image.jpg') center / cover no-repeat;
 }
 
 .header-bg {
@@ -613,14 +611,13 @@ section.resume-section .resume-item .resume-date {
     /* Space between the icon and text */
 }
 
-/* On desktop, align the skill items to the left */
+/* Align the skill items based on screen size */
 @media (min-width: 768px) {
     #skills .p-3 {
         text-align: left;
     }
 }
 
-/* On mobile, align the skill items to the center */
 @media (max-width: 768px) {
     #skills .p-3 {
         text-align: center;
