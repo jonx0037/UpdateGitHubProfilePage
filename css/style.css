@@ -601,6 +601,13 @@ section.resume-section .resume-item .resume-date {
     border-radius: 5px; /* Optional: For rounded corners */
 }
 
+.skill-cover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* This ensures the children stack vertically */
+}
+
 .skill-item {
     padding: 20px 0;
     margin-bottom: 30px;
