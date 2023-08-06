@@ -327,10 +327,10 @@ section.resume-section .resume-item .resume-date {
 }
 
 .dark-content h1 {
-    font-size: 2.5em;
+    font-size: 3em;
     /* Making h1 more distinctive */
     font-weight: bold;
-    color: #fff;
+    color: #317bc5;
     margin-bottom: 20px;
     /* Providing some space below the h1 */
 }
@@ -338,7 +338,7 @@ section.resume-section .resume-item .resume-date {
 .dark-content h2 {
     font-size: 2em;
     font-weight: bold;
-    color: #fff;
+    color: #317bc5;
     margin-top: 25px;
     /* Spacing between sections */
 }
@@ -347,7 +347,7 @@ section.resume-section .resume-item .resume-date {
     font-size: 1.5em;
     /* Making h3 smaller than h2 */
     font-weight: bold;
-    color: #fff;
+    color: #317bc5;
 }
 
 .dark-content img {
@@ -375,7 +375,7 @@ section.resume-section .resume-item .resume-date {
 }
 
 .dark-content a {
-    color: #fff;
+    color: #317bc5;
     text-decoration: none;
     transition: text-decoration 0.3s;
 }
@@ -869,7 +869,7 @@ section.resume-section .resume-item .resume-date {
 }
 
 .contact-cont h3 {
-    color: #fff;
+    color: #317bc5;
     font-size: var(--heading-font-size);
     text-align: center;
 }
