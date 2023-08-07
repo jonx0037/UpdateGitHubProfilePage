@@ -466,7 +466,7 @@ section.resume-section .resume-item .resume-date {
     height: 100%;
     transition: all ease 0.5s;
     opacity: 0;
-    background: rgba(54, 160, 245, 0.73);
+    background: #317bc5;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption-port:hover {
@@ -743,7 +743,7 @@ section.resume-section .resume-item .resume-date {
 }
 
 #award-box .award:hover .award-icon:before {
-    background: #39b3ff;
+    background: #1d90d7;
 }
 
 #award-box .award-content {
@@ -776,8 +776,8 @@ section.resume-section .resume-item .resume-date {
 }
 
 #award-box .award:hover .award-content:before {
-    background: #39b3ff;
-    border-color: #39b3ff;
+    background: #1d90d7;
+    border-color: #1d90d7;
 }
 
 #award-box .award-content:after {
@@ -794,7 +794,7 @@ section.resume-section .resume-item .resume-date {
     display: block;
     font-size: 15px;
     font-weight: 600;
-    color: #39b3ff;
+    color: #1d90d7;
     margin: 0 0 8px;
     transition: all 0.3s ease 0s;
 }
@@ -811,7 +811,7 @@ section.resume-section .resume-item .resume-date {
 }
 
 #award-box .award:hover .title {
-    color: #39b3ff;
+    color: #1d90d7;
 }
 
 #award-box .description {
