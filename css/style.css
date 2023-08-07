@@ -660,6 +660,11 @@ section.resume-section .resume-item .resume-date {
     overflow: hidden;
 }
 
+.video-background {
+    position: relative;
+    overflow: hidden;
+}
+
 #myVideo {
     position: absolute;
     top: 0;
