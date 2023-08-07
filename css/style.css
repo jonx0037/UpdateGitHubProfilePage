@@ -660,7 +660,8 @@ section.resume-section .resume-item .resume-date {
                       AWARD
 ======================================================*/
 #awards {
-    /* Other CSS properties */
+    background: #333;
+    --dark-theme-color: #333;
     position: relative;
     overflow: hidden;
 }
@@ -678,12 +679,8 @@ section.resume-section .resume-item .resume-date {
 .content {
     position: relative;
     z-index: 1;
-    background-color: rgba(0, 0, 0, 0.6); /* Adjust the rgba color to change the overlay color */
-}
-
-#awards {
-    background: #333;
-    --dark-theme-color: #333;
+    background-color: rgba(0, 0, 0, 0.6);
+    /* Adjust the rgba color to change the overlay color */
 }
 
 #award-box {
