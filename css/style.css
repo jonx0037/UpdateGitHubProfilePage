@@ -692,17 +692,6 @@ section.resume-section .resume-item .resume-date {
     /* Add this line */
 }
 
-#award-box {
-    background-color: #333;
-    color: #fff;
-}
-
-#award-box {
-    overflow: hidden;
-    position: relative;
-    padding: 60px 0;
-}
-
 #award-box:before {
     content: "";
     width: 1px;
