@@ -575,7 +575,7 @@ section.resume-section .resume-item .resume-date {
                       SKILLS
 ======================================================*/
 #skills {
-    background-color: rgba(31, 31, 31, 0.68);
+    background-color: #1f1f1fad;
     display: flex;
     justify-content: center;
     align-items: center;
