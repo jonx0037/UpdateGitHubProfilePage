@@ -1223,6 +1223,16 @@ License URL: https://creativecommons.org/licenses/by/4.0/
     <script src="js/counter/jquery.waypoints.min.js"></script>
     <script src="js/counter/jquery.counterup.min.js"></script>
     <script src="js/custom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <script>
+      AOS.init({
+        // Global settings
+        duration: 1000, // values from 0 to 3000, with step 50ms
+        once: true, // whether animation should happen only once - while scrolling down
+      });
+    </script>
+
     <script>
       $(document).ready(function () {
 
@@ -1249,17 +1259,8 @@ License URL: https://creativecommons.org/licenses/by/4.0/
           delay: 10,
           time: 2000
         });
-
       });
     </script>
-    <script>
-      AOS.init({
-        // Global settings
-        duration: 1000, // values from 0 to 3000, with step 50ms
-        once: true, // whether animation should happen only once - while scrolling down
-      });
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 </body>
 
 </html>
