@@ -659,6 +659,27 @@ section.resume-section .resume-item .resume-date {
 /*====================================================
                       AWARD
 ======================================================*/
+#awards {
+    /* Other CSS properties */
+    position: relative;
+    overflow: hidden;
+}
+
+#myVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    object-fit: cover;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.6); /* Adjust the rgba color to change the overlay color */
+}
 
 #awards {
     background: #333;
