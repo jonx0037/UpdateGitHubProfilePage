@@ -583,9 +583,6 @@ section.resume-section .resume-item .resume-date {
     padding: 3rem 0;
     max-width: 100% !important;
     width: 100% !important;
-    /* Placeholder for your background image */
-    background-image: url('path_to_your_image.jpg');
-    background: url('path_to_your_image.jpg') center / cover no-repeat;
 }
 
 .header-bg {
@@ -610,6 +607,31 @@ section.resume-section .resume-item .resume-date {
     margin-right: 15px;
     /* Space between the icon and text */
 }
+
+/* Additional CSS for the video background */
+.video-background {
+    position: relative;
+    overflow: hidden;
+}
+
+#myVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    /* Make sure your content is on top of the video */
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.6);
+    /* You can adjust the opacity for better readability */
+}
+
+/* ... your existing #skills and other related styles ... */
 
 /* Align the skill items based on screen size */
 @media (min-width: 768px) {
