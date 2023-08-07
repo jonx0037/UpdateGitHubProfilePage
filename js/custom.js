@@ -63,3 +63,18 @@ function validateForm() {
   return true;
 
 }
+
+document.addEventListener('scroll', function() {
+  var video = document.getElementById('myVideo');
+  var videoBounds = video.getBoundingClientRect();
+  var viewportHeight = window.innerHeight;
+
+  // If video is in viewport and not already playing, play it.
+  if (videoBounds.top <= viewportHeight && videoBounds.bottom >= 0 && !video.playing) {
+      video.play();
+  }
+  // If video is out of viewport and playing, pause it.
+  else if ((videoBounds.top > viewportHeight || videoBounds.bottom < 0) && video.playing) {
+      video.pause();
+  }
+});

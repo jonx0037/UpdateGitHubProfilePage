@@ -621,6 +621,9 @@ section.resume-section .resume-item .resume-date {
     min-width: 100%;
     min-height: 100%;
     z-index: -1;
+    /* ... other styles ... */
+    object-fit: cover;
+    /* This ensures the video scales to cover the container while preserving its aspect ratio */
     /* Make sure your content is on top of the video */
 }
 
