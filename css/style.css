@@ -629,6 +629,12 @@ section.resume-section .resume-item .resume-date {
     background-color: rgba(0, 0, 0, 0.6);
 }
 
+[data-aos] {
+    transition-property: none !important;
+    transform: none !important;
+    opacity: 1 !important;
+}
+
 @media (min-width: 768px) {
     #skills .p-3 {
         text-align: left;
