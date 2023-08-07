@@ -600,7 +600,8 @@ section.resume-section .resume-item .resume-date {
     margin-bottom: 20px;
     padding: 10px;
     background: rgba(144, 144, 144, 0.78);
-    color: #1a4774; /* This is a dark blue color, adjust as needed */
+    color: #1a4774;
+    /* This is a dark blue color, adjust as needed */
 }
 
 .skill-item i {
@@ -627,6 +628,7 @@ section.resume-section .resume-item .resume-date {
     z-index: 1;
     background-color: rgba(0, 0, 0, 0.6);
 }
+
 [data-aos] {
     transition-property: none !important;
     transform: none !important;
