@@ -597,7 +597,6 @@ section.resume-section .resume-item .resume-date {
 .skill-item {
     display: flex;
     align-items: center;
-    /* Align the icon and text horizontally */
     margin-bottom: 20px;
     padding: 10px;
     background: rgba(144, 144, 144, 0.78);
@@ -605,10 +604,8 @@ section.resume-section .resume-item .resume-date {
 
 .skill-item i {
     margin-right: 15px;
-    /* Space between the icon and text */
 }
 
-/* Additional CSS for the video background */
 .video-background {
     position: relative;
     overflow: hidden;
@@ -621,33 +618,35 @@ section.resume-section .resume-item .resume-date {
     min-width: 100%;
     min-height: 100%;
     z-index: -1;
-    /* ... other styles ... */
     object-fit: cover;
-    /* This ensures the video scales to cover the container while preserving its aspect ratio */
-    /* Make sure your content is on top of the video */
 }
 
 .content {
     position: relative;
     z-index: 1;
     background-color: rgba(0, 0, 0, 0.6);
-    /* You can adjust the opacity for better readability */
 }
 
-/* ... your existing #skills and other related styles ... */
-
-/* Align the skill items based on screen size */
 @media (min-width: 768px) {
     #skills .p-3 {
         text-align: left;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
+    #skills {
+        background-color: rgba(31, 31, 31, 0.85);
+    }
+
+    #myVideo {
+        display: none;
+    }
+
     #skills .p-3 {
         text-align: center;
     }
 }
+
 
 /*====================================================
                       AWARD
