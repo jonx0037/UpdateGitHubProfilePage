@@ -921,6 +921,8 @@ section.resume-section .resume-item .resume-date {
 .form-container {
     max-width: 600px;
     margin: 0 auto;
+    width: 80%;
+    /* Ensures form doesn't take up full width on small screens */
 }
 
 .form-group label {
@@ -928,51 +930,57 @@ section.resume-section .resume-item .resume-date {
     text-align: left;
     color: var(--main-font-color);
     margin-top: 20px;
-    margin-left: 70px;
 }
 
 .form-group input,
 .form-group textarea {
     display: block;
-    width: 70%;
+    width: 100%;
     padding: 10px;
     border: none;
     background-color: var(--form-background-color);
     color: var(--main-font-color);
     margin-top: 10px;
-    margin-left: 70px;
 }
 
 .form-group button {
     display: block;
-    width: 30%;
-    /* Adjust the width as per your requirement */
+    width: 100%;
     padding: 10px;
     background-color: #317bc5;
-    /* Medium dark blue background */
     color: #fff;
-    /* White font */
     border: none;
     border-radius: 20px;
-    /* Rounded corners */
     margin-top: 20px;
-    margin-left: 120px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
 .form-group button:hover {
     background-color: #808080;
-    /* Medium dark gray background on hover */
     color: #fff;
-    /* White font on hover */
 }
 
 .form-group button:active {
     background-color: #a70000;
-    /* Red background when active */
     color: #fff;
-    /* White font when active */
+}
+
+@media screen and (min-width: 600px) {
+
+    .form-group label,
+    .form-group input,
+    .form-group textarea {
+        width: 70%;
+        margin-left: 15%;
+        /* Adjust as needed to center align form elements */
+    }
+
+    .form-group button {
+        width: 30%;
+        margin-left: 35%;
+        /* Adjust as needed to center align button */
+    }
 }
 
 /*====================================================
