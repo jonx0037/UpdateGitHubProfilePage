@@ -613,6 +613,15 @@ section.resume-section .resume-item .resume-date {
     margin-right: 15px;
 }
 
+.skill-percentage {
+    font-size: 2em;
+    /* Adjust size as needed */
+    color: #124171;
+    font-weight: bold;
+    /* If you want it bold like h2 */
+}
+
+
 @media (min-width: 768px) {
     #skills .p-3 {
         text-align: left;
