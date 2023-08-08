@@ -575,7 +575,11 @@ section.resume-section .resume-item .resume-date {
                       SKILLS
 ======================================================*/
 #skills {
-    background-color: #1f1f1fad;
+    background: url('img/Dark-Blue-Leaf-Background.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -601,31 +605,10 @@ section.resume-section .resume-item .resume-date {
     padding: 10px;
     background: rgba(144, 144, 144, 0.78);
     color: #1a4774;
-    /* This is a dark blue color, adjust as needed */
 }
 
 .skill-item i {
     margin-right: 15px;
-}
-
-.video-background {
-    position: relative;
-    overflow: hidden;
-}
-
-#myVideo {
-    position: absolute;
-    top: 0;
-    left: 0;
-    min-width: 100%;
-    min-height: 100%;
-    z-index: -1;
-    object-fit: cover;
-}
-
-.content {
-    position: relative;
-    z-index: 1;
 }
 
 @media (min-width: 768px) {
@@ -635,14 +618,6 @@ section.resume-section .resume-item .resume-date {
 }
 
 @media (max-width: 767px) {
-    #skills {
-        background-color: rgba(31, 31, 31, 0.85);
-    }
-
-    #myVideo {
-        display: none;
-    }
-
     #skills .p-3 {
         text-align: center;
     }
