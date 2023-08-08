@@ -654,21 +654,6 @@ section.resume-section .resume-item .resume-date {
     background-color: #333;
 }
 
-.video-background {
-    position: relative;
-    overflow: hidden;
-}
-
-#myVideo {
-    position: absolute;
-    top: 0;
-    left: 0;
-    min-width: 100%;
-    min-height: 100%;
-    z-index: -1;
-    object-fit: cover;
-}
-
 .content {
     position: relative;
     z-index: 1;
@@ -811,7 +796,7 @@ section.resume-section .resume-item .resume-date {
     display: block;
     font-size: 15px;
     font-weight: 600;
-    color: #1d90d7;
+    color: #137dc0;
     margin: 0 0 8px;
     transition: all 0.3s ease 0s;
 }
@@ -828,7 +813,7 @@ section.resume-section .resume-item .resume-date {
 }
 
 #award-box .award:hover .title {
-    color: #1d90d7;
+    color: #137dc0;
 }
 
 #award-box .description {
