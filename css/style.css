@@ -745,7 +745,7 @@ section.resume-section .resume-item .resume-date {
 }
 
 #award-box .award:hover .award-icon:before {
-    background: #1d90d7;
+    background: #137dc0;
 }
 
 #award-box .award-content {
@@ -778,8 +778,8 @@ section.resume-section .resume-item .resume-date {
 }
 
 #award-box .award:hover .award-content:before {
-    background: #1d90d7;
-    border-color: #1d90d7;
+    background: #137dc0;
+    border-color: #137dc0;
 }
 
 #award-box .award-content:after {
