@@ -589,15 +589,6 @@ section.resume-section .resume-item .resume-date {
     width: 100% !important;
 }
 
-.header-bg {
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 5px 10px;
-    margin: 10px 0;
-    border-radius: 5px;
-    text-align: center;
-    width: 100%;
-}
-
 .skill-item {
     display: flex;
     align-items: center;
