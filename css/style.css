@@ -1045,7 +1045,7 @@ section.resume-section .resume-item .resume-date {
     .list-social-icons {
         padding-left: 0;
         text-align: center;
-        /* Center align icons on smaller screens */
+        /* Center align icons on all screens */
 
         a {
             color: var(--social-icon-color);
@@ -1068,38 +1068,37 @@ section.resume-section .resume-item .resume-date {
             /* Left align icons on larger screens */
         }
     }
-}
 
-.list-icons {
-    font-size: 3rem;
+    .list-icons {
+        font-size: 3rem;
 
-    .list-inline-item i:hover {
-        color: var(--social-icon-hover-color);
+        .list-inline-item i:hover {
+            color: var(--social-icon-hover-color);
+        }
     }
-}
 
-.map-responsive {
-    overflow: hidden;
-    padding-bottom: 50%;
-    position: relative;
-    height: 0;
-
-    iframe {
-        left: 0;
-        top: 0;
-        height: 100%;
-        width: 100%;
-        position: absolute;
-    }
-}
-
-/* Override height for larger screens */
-@media (min-width: 992px) {
-
-    /* Adjust breakpoint as needed */
     .map-responsive {
-        height: calc(100vh - 60px);
-        /* 100% of the viewport height */
-        padding-bottom: 0;
+        overflow: hidden;
+        padding-bottom: 50%;
+        position: relative;
+        height: 0;
+
+        iframe {
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            position: absolute;
+        }
     }
-}
+
+    /* Override height for larger screens */
+    @media (min-width: 992px) {
+
+        /* Adjust breakpoint as needed */
+        .map-responsive {
+            height: calc(100vh - 60px);
+            /* 100% of the viewport height */
+            padding-bottom: 0;
+        }
+    }
