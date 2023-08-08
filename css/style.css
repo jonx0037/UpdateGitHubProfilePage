@@ -433,7 +433,7 @@ section.resume-section .resume-item .resume-date {
 ======================================================*/
 
 #portfolio {
-    background: url('..img/Dark-Blue-Leaf-Background.png') no-repeat center center fixed;
+    background: url(..img/Dark-Blue-Leaf-Background.png) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -585,7 +585,7 @@ section.resume-section .resume-item .resume-date {
                       SKILLS
 ======================================================*/
 #skills {
-    background: url('..img/Dark-Blue-Leaf-Background.png') no-repeat center center fixed;
+    background: url(..img/Dark-Blue-Leaf-Background.png) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -639,7 +639,7 @@ section.resume-section .resume-item .resume-date {
                       AWARD
 ======================================================*/
 #awards {
-    background: url('..img/Dark-Blue-Leaf-Background.png') no-repeat center center fixed;
+    background: url(..img/Dark-Blue-Leaf-Background.png) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
