@@ -587,6 +587,7 @@ section.resume-section .resume-item .resume-date {
     padding: 3rem 0;
     max-width: 100% !important;
     width: 100% !important;
+    background-color: #212529;
 }
 
 .skill-item {
