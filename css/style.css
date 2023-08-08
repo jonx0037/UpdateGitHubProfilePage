@@ -433,9 +433,19 @@ section.resume-section .resume-item .resume-date {
 ======================================================*/
 
 #portfolio {
-    padding: 100px 0;
+    background: url('..img/Dark-Blue-Leaf-Background.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem 0;
+    max-width: 100% !important;
+    width: 100% !important;
+    background-color: #333;
 }
 
 .port-head-cont {
@@ -575,7 +585,7 @@ section.resume-section .resume-item .resume-date {
                       SKILLS
 ======================================================*/
 #skills {
-    background: url('img/Dark-Blue-Leaf-Background.png') no-repeat center center fixed;
+    background: url('..img/Dark-Blue-Leaf-Background.png') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -620,10 +630,19 @@ section.resume-section .resume-item .resume-date {
                       AWARD
 ======================================================*/
 #awards {
-    background: #333;
-    --dark-theme-color: #333;
-    position: relative;
-    overflow: hidden;
+    background: url('..img/Dark-Blue-Leaf-Background.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem 0;
+    max-width: 100% !important;
+    width: 100% !important;
+    background-color: #333;
 }
 
 .video-background {
