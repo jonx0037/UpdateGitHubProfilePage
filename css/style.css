@@ -277,7 +277,6 @@ section.resume-section .resume-item .resume-date {
     justify-content: space-between;
     align-items: start;
     padding: 20px;
-    flex-direction: column;
 }
 
 .text-content {
@@ -292,15 +291,25 @@ section.resume-section .resume-item .resume-date {
 
 .content-row-reverse {
     flex-direction: row-reverse;
-    flex-direction: column;
 }
 
 .content-row-reverse .text-content {
     padding-left: 20px;
+    padding-right: 0;
+    /* Reset padding-right */
 }
 
 .content-row-reverse .img-content {
     text-align: left;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+
+    .content-row,
+    .content-row-reverse {
+        flex-direction: column;
+    }
 }
 
 .bg-primary {
