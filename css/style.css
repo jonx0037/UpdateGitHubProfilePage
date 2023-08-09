@@ -277,6 +277,7 @@ section.resume-section .resume-item .resume-date {
     justify-content: space-between;
     align-items: start;
     padding: 20px;
+    flex-direction: column;
 }
 
 .text-content {
@@ -291,7 +292,6 @@ section.resume-section .resume-item .resume-date {
 
 .content-row-reverse {
     flex-direction: row-reverse;
-    flex-direction: column;
 }
 
 .content-row-reverse .text-content {
