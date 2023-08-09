@@ -275,32 +275,20 @@ section.resume-section .resume-item .resume-date {
 .content-row-reverse {
     display: flex;
     justify-content: space-between;
-    align-items: start;
+    align-items: flex-start;
+    /* Align to the top */
     padding: 20px;
 }
 
-.text-content {
-    flex: 1;
-    padding-right: 20px;
-}
-
+.text-content,
 .img-content {
     flex: 1;
-    text-align: right;
+    padding: 0 20px;
+    /* Padding to both sides */
 }
 
 .content-row-reverse {
     flex-direction: row-reverse;
-}
-
-.content-row-reverse .text-content {
-    padding-left: 20px;
-    padding-right: 0;
-    /* Reset padding-right */
-}
-
-.content-row-reverse .img-content {
-    text-align: left;
 }
 
 /* Mobile Responsive */
@@ -309,6 +297,12 @@ section.resume-section .resume-item .resume-date {
     .content-row,
     .content-row-reverse {
         flex-direction: column;
+    }
+
+    .text-content,
+    .img-content {
+        padding: 20px 0;
+        /* Reset horizontal padding */
     }
 }
 
