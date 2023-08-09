@@ -240,7 +240,7 @@ a:active {
 .heading-border {
     width: 60px;
     height: 10px;
-    background-color: ​#2164a6;
+    background-color: #2164a6;
     margin: 0 auto 20px auto;
 }
 
@@ -271,9 +271,9 @@ section.resume-section .resume-item .resume-date {
     }
 }
 
-.content-row {
+.content-row,
+.content-row-reverse {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: start;
     padding: 20px;
@@ -290,42 +290,23 @@ section.resume-section .resume-item .resume-date {
 }
 
 .content-row-reverse {
-    display: flex;
     flex-direction: row-reverse;
-    justify-content: space-between;
-    align-items: start;
-    padding: 20px;
 }
 
 .content-row-reverse .text-content {
-    flex: 1;
     padding-left: 20px;
 }
 
 .content-row-reverse .img-content {
-    flex: 1;
     text-align: left;
 }
 
-@media (max-width: 768px) {
-
-    .content-row,
-    .content-row-reverse {
-        flex-direction: column;
-    }
-
-    .content-row .text-content,
-    .content-row-reverse .text-content {
-        padding: 20px 0;
-    }
-}
-
 .bg-primary {
-    background-color: ​#2164a6 !important;
+    background-color: #2164a6 !important;
 }
 
 .text-primary {
-    color: ​#2164a6 !important;
+    color: #2164a6 !important;
 }
 
 /*==================================================
