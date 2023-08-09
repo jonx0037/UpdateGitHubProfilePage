@@ -307,22 +307,17 @@ section.resume-section .resume-item .resume-date {
     text-align: left;
 }
 
-.content-row {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: start;
-    padding: 20px;
-}
+@media (max-width: 768px) {
 
-.content-row .text-content {
-    flex: 1;
-    padding-right: 20px;
-}
+    .content-row,
+    .content-row-reverse {
+        flex-direction: column;
+    }
 
-.content-row .img-content {
-    flex: 1;
-    text-align: right;
+    .content-row .text-content,
+    .content-row-reverse .text-content {
+        padding: 20px 0;
+    }
 }
 
 .bg-primary {
