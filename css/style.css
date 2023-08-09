@@ -271,6 +271,24 @@ section.resume-section .resume-item .resume-date {
     }
 }
 
+.content-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    padding: 20px;
+}
+
+.text-content {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.img-content {
+    flex: 1;
+    text-align: right;
+}
+
 .bg-primary {
     background-color: ​#2164a6 !important;
 }
@@ -1094,5 +1112,4 @@ section.resume-section .resume-item .resume-date {
             height: calc(100vh - 60px);
             /* 100% of the viewport height */
             padding-bottom: 0;
-            }
-    
+        }
