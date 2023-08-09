@@ -291,6 +291,7 @@ section.resume-section .resume-item .resume-date {
 
 .content-row-reverse {
     flex-direction: row-reverse;
+    flex-direction: column;
 }
 
 .content-row-reverse .text-content {
