@@ -306,6 +306,29 @@ section.resume-section .resume-item .resume-date {
     }
 }
 
+.special-section .content-row-reverse {
+    flex-direction: row-reverse;
+    /* Ensure the correct order */
+}
+
+.special-section .content-row-reverse .img-content {
+    text-align: left;
+    /* Align the image to the left */
+}
+
+/* Mobile Responsive for special section */
+@media (max-width: 768px) {
+    .special-section .content-row-reverse {
+        flex-direction: column;
+    }
+
+    .special-section .text-content,
+    .special-section .img-content {
+        padding: 20px 0;
+        /* Reset horizontal padding */
+    }
+}
+
 .bg-primary {
     background-color: #2164a6 !important;
 }
