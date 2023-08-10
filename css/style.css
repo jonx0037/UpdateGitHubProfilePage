@@ -276,7 +276,6 @@ section.resume-section .resume-item .resume-date {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    /* Align to the top */
     padding: 20px;
 }
 
@@ -284,11 +283,24 @@ section.resume-section .resume-item .resume-date {
 .img-content {
     flex: 1;
     padding: 0 20px;
-    /* Padding to both sides */
 }
 
-.content-row-reverse {
-    flex-direction: row-reverse;
+.content-row .text-content {
+    padding-right: 20px;
+    text-align: left;
+}
+
+.content-row .img-content {
+    text-align: right;
+}
+
+.content-row-reverse .text-content {
+    padding-left: 20px;
+    text-align: right;
+}
+
+.content-row-reverse .img-content {
+    text-align: left;
 }
 
 /* Mobile Responsive */
@@ -297,35 +309,6 @@ section.resume-section .resume-item .resume-date {
     .content-row,
     .content-row-reverse {
         flex-direction: column;
-    }
-
-    .text-content,
-    .img-content {
-        padding: 20px 0;
-        /* Reset horizontal padding */
-    }
-}
-
-.special-section .content-row-reverse {
-    flex-direction: row-reverse;
-    /* Ensure the correct order */
-}
-
-.special-section .content-row-reverse .img-content {
-    text-align: left;
-    /* Align the image to the left */
-}
-
-/* Mobile Responsive for special section */
-@media (max-width: 768px) {
-    .special-section .content-row-reverse {
-        flex-direction: column;
-    }
-
-    .special-section .text-content,
-    .special-section .img-content {
-        padding: 20px 0;
-        /* Reset horizontal padding */
     }
 }
 
