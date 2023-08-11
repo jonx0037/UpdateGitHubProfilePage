@@ -314,10 +314,10 @@ section.resume-section .resume-item .resume-date {
 
 .slider-wrapper {
     position: relative;
-    width: 300px;
+    width: 900px;
+    /* 300px * 3 */
     height: 225px;
     background-color: #808080;
-    /* Medium gray background */
     overflow: hidden;
 }
 
@@ -326,10 +326,19 @@ section.resume-section .resume-item .resume-date {
     transition: all 0.5s ease;
 }
 
-.slide {
-    min-width: 300px;
+.gallery-image {
+    width: 300px;
     height: 225px;
-    position: relative;
+    cursor: pointer;
+    /* Indicate that the image is clickable */
+}
+
+.slide {
+    display: flex;
+    /* Align the images horizontally */
+    min-width: 900px;
+    /* 300px * 3 */
+    height: 225px;
 }
 
 .slide img {
