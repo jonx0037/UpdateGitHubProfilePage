@@ -128,3 +128,23 @@ modalRight.addEventListener('click', () => {
 modalGallery.addEventListener('click', (e) => {
   if (e.target === modalGallery) modalGallery.style.display = 'none';
 });
+let currentImageIndex = 0;
+const images = [
+  'img/Content Gallery/CG-11.png',
+  'img/Content Gallery/CG-12.png',
+  // ... Add the other image paths here
+];
+
+document.getElementById('modal-right').addEventListener('click', () => {
+  currentImageIndex = (currentImageIndex + 1) % images.length;
+  updateModalImage();
+});
+
+document.getElementById('modal-left').addEventListener('click', () => {
+  currentImageIndex = (currentImageIndex - 1 + images.length) % images.length;
+  updateModalImage();
+});
+
+function updateModalImage() {
+  document.getElementById('large-image').src = images[currentImageIndex];
+}
