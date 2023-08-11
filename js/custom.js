@@ -64,18 +64,18 @@ function validateForm() {
 
 }
 
-document.addEventListener('scroll', function() {
+document.addEventListener('scroll', function () {
   var video = document.getElementById('myVideo');
   var videoBounds = video.getBoundingClientRect();
   var viewportHeight = window.innerHeight;
 
   // If video is in viewport and not already playing, play it.
   if (videoBounds.top <= viewportHeight && videoBounds.bottom >= 0 && !video.playing) {
-      video.play();
+    video.play();
   }
   // If video is out of viewport and playing, pause it.
   else if ((videoBounds.top > viewportHeight || videoBounds.bottom < 0) && video.playing) {
-      video.pause();
+    video.pause();
   }
 });
 
@@ -97,6 +97,6 @@ rightArrow.addEventListener('click', () => {
 });
 
 function updateSlider() {
-  const offset = -currentIndex * 300;
+  const offset = -currentIndex * 900; /* 300px * 3 */
   slider.style.transform = `translateX(${offset}px)`;
 }
