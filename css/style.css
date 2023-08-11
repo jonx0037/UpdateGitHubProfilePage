@@ -312,6 +312,68 @@ section.resume-section .resume-item .resume-date {
     }
 }
 
+.slider-wrapper {
+    position: relative;
+    width: 300px;
+    height: 225px;
+    background-color: #808080;
+    /* Medium gray background */
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    transition: all 0.5s ease;
+}
+
+.slide {
+    min-width: 300px;
+    height: 225px;
+    position: relative;
+}
+
+.slide img {
+    width: 300px;
+    height: 225px;
+}
+
+.hover-text {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.66);
+    color: white;
+    text-align: center;
+    line-height: 225px;
+    /* Vertically center the text */
+}
+
+.slide:hover .hover-text {
+    display: block;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: black;
+    cursor: pointer;
+}
+
+.arrow-left {
+    left: 10px;
+}
+
+.arrow-right {
+    right: 10px;
+}
+
 .bg-primary {
     background-color: #2164a6 !important;
 }
