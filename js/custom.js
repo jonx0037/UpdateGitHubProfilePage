@@ -148,3 +148,25 @@ document.getElementById('modal-left').addEventListener('click', () => {
 function updateModalImage() {
   document.getElementById('large-image').src = images[currentImageIndex];
 }
+const slider = document.querySelector('.slider');
+const slides = document.querySelectorAll('.slide');
+const leftArrow = document.querySelector('.arrow-left');
+const rightArrow = document.querySelector('.arrow-right');
+
+let slideIndex = 0;
+
+// Function to move slides
+const moveSlides = (direction) => {
+  if (direction === 'left' && slideIndex > 0) {
+    slideIndex--;
+  } else if (direction === 'right' && slideIndex < slides.length - 1) {
+    slideIndex++;
+  }
+  const offset = slideIndex * 300;
+  slider.style.transform = `translateX(-${offset}px)`;
+};
+
+leftArrow.addEventListener('click', () => moveSlides('left'));
+rightArrow.addEventListener('click', () => moveSlides('right'));
+
+// Code for the modal gallery, etc.
