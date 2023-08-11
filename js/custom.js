@@ -100,3 +100,31 @@ function updateSlider() {
   const offset = -currentIndex * 900; /* 300px * 3 */
   slider.style.transform = `translateX(${offset}px)`;
 }
+const images = document.querySelectorAll('.gallery-image');
+const modalGallery = document.getElementById('modal-gallery');
+const largeImage = document.getElementById('large-image');
+const modalLeft = document.getElementById('modal-left');
+const modalRight = document.getElementById('modal-right');
+let modalIndex = 0;
+
+images.forEach((image, index) => {
+  image.addEventListener('click', () => {
+    modalIndex = index;
+    largeImage.src = image.src;
+    modalGallery.style.display = 'flex';
+  });
+});
+
+modalLeft.addEventListener('click', () => {
+  modalIndex = (modalIndex + images.length - 1) % images.length;
+  largeImage.src = images[modalIndex].src;
+});
+
+modalRight.addEventListener('click', () => {
+  modalIndex = (modalIndex + 1) % images.length;
+  largeImage.src = images[modalIndex].src;
+});
+
+modalGallery.addEventListener('click', (e) => {
+  if (e.target === modalGallery) modalGallery.style.display = 'none';
+});
