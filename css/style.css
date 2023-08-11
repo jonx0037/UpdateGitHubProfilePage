@@ -312,86 +312,94 @@ section.resume-section .resume-item .resume-date {
     }
 }
 
-/* Slider Wrapper */
 .slider-wrapper {
-    max-width: 960px;
-    margin: 0 auto;
-    background-color: #808080;
-    /* Medium Gray */
+    background-color: #f2f2f2;
+    /* Different background color for contrast */
+    padding: 20px;
+    /* Padding around the container */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Centering the slider */
+    max-width: 100%;
+    /* Responsive design */
     overflow: hidden;
-    /* Hide horizontal scrollbar */
-    position: relative;
-    /* Relative positioning for arrows */
+    /* Hiding overflowing content */
 }
 
-/* Slider */
 .slider {
     display: flex;
     overflow-x: auto;
-    /* Enable horizontal scrolling */
+    gap: 20px;
+    /* Space between images */
     scroll-snap-type: x mandatory;
-    /* Enable smooth scrolling */
-    scroll-padding: 0 15%;
+    /* Smooth scrolling */
 }
 
-/* Slide */
 .slide {
     flex: 0 0 300px;
     /* Fixed width for each slide */
+    height: 225px;
     scroll-snap-align: start;
-    /* Align to the start */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    /* Alignment for smooth scrolling */
     position: relative;
-    /* Relative positioning for hover text */
 }
 
-/* Hover Text */
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Maintaining aspect ratio */
+    display: block;
+}
+
 .hover-text {
     position: absolute;
     top: 0;
     left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.66);
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.66);
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     opacity: 0;
     transition: opacity 0.3s ease;
+    /* Hover effect */
 }
 
 .slide:hover .hover-text {
     opacity: 1;
 }
 
-/* Arrows */
 .arrow {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: none;
-    border: none;
-    font-size: 24px;
+    background: black;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
     cursor: pointer;
-    color: black;
-    /* Black color */
+    border: none;
+    display: none;
+    /* Initially hidden */
 }
 
-.arrow-left {
-    left: 15px;
-}
-
-.arrow-right {
-    right: 15px;
-}
-
-/* Hide arrows on mobile */
+/* Mobile responsiveness */
 @media (max-width: 768px) {
+    .slider-wrapper {
+        align-items: stretch;
+    }
+
+    .slide {
+        flex: 0 0 100%;
+        /* Full width on mobile */
+    }
+}
+
+/* Display arrows on larger screens */
+@media (min-width: 768px) {
     .arrow {
-        display: none;
+        display: block;
     }
 }
 
