@@ -319,7 +319,19 @@ section.resume-section .resume-item .resume-date {
     height: 225px;
     background-color: #808080;
     overflow: hidden;
+    max-width: 900px;
+    /* Adjust this value based on the desired width */
+    margin: 0 auto;
+    /* Centering */
 }
+
+@media (max-width: 768px) {
+    .slide .gallery-image {
+        flex-basis: 100%;
+        /* Each image takes full width on mobile */
+    }
+}
+
 
 .slider {
     display: flex;
@@ -331,6 +343,8 @@ section.resume-section .resume-item .resume-date {
     width: 300px;
     height: 225px;
     cursor: pointer;
+    margin: 0 10px;
+    /* Add space between images */
 }
 
 .gallery-image img {
