@@ -78,3 +78,25 @@ document.addEventListener('scroll', function() {
       video.pause();
   }
 });
+
+const slider = document.querySelector('.slider');
+const slides = document.querySelectorAll('.slide');
+const leftArrow = document.querySelector('.arrow-left');
+const rightArrow = document.querySelector('.arrow-right');
+
+let currentIndex = 0;
+
+leftArrow.addEventListener('click', () => {
+  currentIndex = (currentIndex + slides.length - 1) % slides.length;
+  updateSlider();
+});
+
+rightArrow.addEventListener('click', () => {
+  currentIndex = (currentIndex + 1) % slides.length;
+  updateSlider();
+});
+
+function updateSlider() {
+  const offset = -currentIndex * 300;
+  slider.style.transform = `translateX(${offset}px)`;
+}
