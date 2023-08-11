@@ -313,18 +313,22 @@ section.resume-section .resume-item .resume-date {
 }
 
 .slider-wrapper {
+    position: relative;
     background-color: #f2f2f2;
     /* Different background color for contrast */
     padding: 20px;
     /* Padding around the container */
+    width: 300px;
+    height: 225px;
+    overflow: hidden;
+    margin: 0 auto;
+    /* Center the slider */
+    max-width: 100%;
+    /* Responsive design */
     display: flex;
     flex-direction: column;
     align-items: center;
     /* Centering the slider */
-    max-width: 100%;
-    /* Responsive design */
-    overflow: hidden;
-    /* Hiding overflowing content */
 }
 
 .slider {
@@ -332,6 +336,10 @@ section.resume-section .resume-item .resume-date {
     overflow-x: auto;
     gap: 20px;
     /* Space between images */
+    width: calc(300px * 12);
+    /* Total width of all slides */
+    transition: all 0.5s ease;
+    /* Smooth transition */
     scroll-snap-type: x mandatory;
     /* Smooth scrolling */
 }
@@ -346,8 +354,8 @@ section.resume-section .resume-item .resume-date {
 }
 
 .slide img {
-    width: 100%;
-    height: 100%;
+    width: 300px;
+    height: 225px;
     object-fit: cover;
     /* Maintaining aspect ratio */
     display: block;
@@ -359,14 +367,12 @@ section.resume-section .resume-item .resume-date {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.66);
-    color: white;
+    background: rgba(0, 0, 0, 0.66);
     display: flex;
     justify-content: center;
     align-items: center;
     opacity: 0;
     transition: opacity 0.3s ease;
-    /* Hover effect */
 }
 
 .slide:hover .hover-text {
@@ -374,14 +380,22 @@ section.resume-section .resume-item .resume-date {
 }
 
 .arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
     background: black;
     color: white;
-    padding: 10px;
-    font-size: 18px;
-    cursor: pointer;
     border: none;
-    display: none;
-    /* Initially hidden */
+    padding: 10px;
+    cursor: pointer;
+}
+
+.arrow-left {
+    left: -40px;
+}
+
+.arrow-right {
+    right: -40px;
 }
 
 /* Mobile responsiveness */
