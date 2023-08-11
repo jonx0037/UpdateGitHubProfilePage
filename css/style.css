@@ -1191,10 +1191,8 @@ section.resume-section .resume-item .resume-date {
 
     /* Override height for larger screens */
     @media (min-width: 992px) {
-
-        /* Adjust breakpoint as needed */
         .map-responsive {
             height: calc(100vh - 60px);
-            /* 100% of the viewport height */
             padding-bottom: 0;
         }
+    }
