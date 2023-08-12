@@ -312,52 +312,51 @@ section.resume-section .resume-item .resume-date {
     }
 }
 
+// File: css/style.css:
+
 .slider-wrapper {
     position: relative;
     background-color: #f2f2f2;
-    /* Different background color for contrast */
     padding: 20px;
-    /* Padding around the container */
     width: 300px;
     height: 225px;
     overflow: hidden;
     margin: 0 auto;
-    /* Center the slider */
     max-width: 100%;
-    /* Responsive design */
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* Centering the slider */
 }
 
 .slider {
     display: flex;
     overflow-x: auto;
     gap: 20px;
-    /* Space between images */
     width: calc(300px * 12);
-    /* Total width of all slides */
     transition: all 0.5s ease;
-    /* Smooth transition */
     scroll-snap-type: x mandatory;
-    /* Smooth scrolling */
+    transition: opacity 0.5s;
+    /* Added from the snippet */
 }
 
 .slide {
     flex: 0 0 300px;
-    /* Fixed width for each slide */
     height: 225px;
     scroll-snap-align: start;
-    /* Alignment for smooth scrolling */
     position: relative;
+    opacity: 0;
+    /* Added from the snippet */
+}
+
+.slide.active {
+    opacity: 1;
+    /* Added from the snippet */
 }
 
 .slide img {
     width: 300px;
     height: 225px;
     object-fit: cover;
-    /* Maintaining aspect ratio */
     display: block;
 }
 
@@ -398,7 +397,6 @@ section.resume-section .resume-item .resume-date {
     right: -40px;
 }
 
-/* Mobile responsiveness */
 @media (max-width: 768px) {
     .slider-wrapper {
         align-items: stretch;
@@ -406,7 +404,6 @@ section.resume-section .resume-item .resume-date {
 
     .slide {
         flex: 0 0 100%;
-        /* Full width on mobile */
     }
 
     .arrow {
@@ -414,14 +411,12 @@ section.resume-section .resume-item .resume-date {
     }
 }
 
-/* Display arrows on larger screens */
 @media (min-width: 768px) {
     .arrow {
         display: block;
     }
 }
 
-/* Gallery Images */
 .gallery-image {
     max-width: 300px;
     max-height: 225px;
