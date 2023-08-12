@@ -20,12 +20,14 @@ const moveSlides = (direction) => {
   } else if (direction === 'right' && slideIndex < slides.length - 1) {
     slideIndex++;
   }
-  const offset = slideIndex * 300;
+  const offset = slideIndex * 300; // Width of each slide
   slider.style.transform = `translateX(-${offset}px)`;
 };
 
 leftArrow.addEventListener('click', () => moveSlides('left'));
 rightArrow.addEventListener('click', () => moveSlides('right'));
+
+// Code for other functionalities goes here
 
 // Modal gallery logic
 const images = document.querySelectorAll('.gallery-image');
