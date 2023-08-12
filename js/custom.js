@@ -3,33 +3,7 @@
   // ...
 })(jQuery);
 
-// Scroll video play/pause logic
-// ...
-
-const slider = document.querySelector('.slider');
-const slides = document.querySelectorAll('.slide');
-const leftArrow = document.querySelector('.arrow-left');
-const rightArrow = document.querySelector('.arrow-right');
-
-let slideIndex = 0;
-
-// Function to move slides
-const moveSlides = (direction) => {
-  if (direction === 'left' && slideIndex > 0) {
-    slideIndex--;
-  } else if (direction === 'right' && slideIndex < slides.length - 1) {
-    slideIndex++;
-  }
-  const offset = slideIndex * 300; // Width of each slide
-  slider.style.transform = `translateX(-${offset}px)`;
-};
-
-leftArrow.addEventListener('click', () => moveSlides('left'));
-rightArrow.addEventListener('click', () => moveSlides('right'));
-
-// Code for other functionalities goes here
-
-// Modal gallery logic
+// Select gallery images and modal elements
 const images = document.querySelectorAll('.gallery-image');
 const modalGallery = document.getElementById('modal-gallery');
 const largeImage = document.getElementById('large-image');
@@ -37,24 +11,28 @@ const modalLeft = document.getElementById('modal-left');
 const modalRight = document.getElementById('modal-right');
 let modalIndex = 0;
 
+// Add click event to each gallery image
 images.forEach((image, index) => {
   image.addEventListener('click', () => {
     modalIndex = index;
-    largeImage.src = image.src;
-    modalGallery.style.display = 'flex';
+    largeImage.src = image.querySelector('img').src; // Get the image source
+    modalGallery.style.display = 'flex'; // Display the modal gallery
   });
 });
 
+// Left arrow functionality
 modalLeft.addEventListener('click', () => {
   modalIndex = (modalIndex + images.length - 1) % images.length;
-  largeImage.src = images[modalIndex].src;
+  largeImage.src = images[modalIndex].querySelector('img').src;
 });
 
+// Right arrow functionality
 modalRight.addEventListener('click', () => {
   modalIndex = (modalIndex + 1) % images.length;
-  largeImage.src = images[modalIndex].src;
+  largeImage.src = images[modalIndex].querySelector('img').src;
 });
 
+// Click outside the image to close the modal gallery
 modalGallery.addEventListener('click', (e) => {
   if (e.target === modalGallery) modalGallery.style.display = 'none';
 });
