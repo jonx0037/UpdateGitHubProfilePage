@@ -241,72 +241,19 @@ License URL: https://creativecommons.org/licenses/by/4.0/
             enduring.
           </p>
         </section>
-        <div class="slider-wrapper">
-          <div class="slider">
-            <!-- Slide 1 -->
-            <div class="slide">
-              <img src="img/Content Gallery/CG-11.png" alt="Image 1" class="gallery-image">
-              <div class="hover-text">Placeholder Text</div>
-            </div>
-            <!-- Slide 2 -->
-            <div class="slide">
-              <img src="img/Content Gallery/CG-12.png" alt="Image 2" class="gallery-image">
-              <div class="hover-text">Placeholder Text</div>
-            </div>
-            <!-- Slide 3 -->
-            <div class="slide">
-              <img src="img/Content Gallery/CG-13.png" alt="Image 3" class="gallery-image">
-              <div class="hover-text">Placeholder Text</div>
-            </div>
-            <!-- Slide 4 -->
-            <div class="slide">
-              <img src="img/Content Gallery/CG-14.png" alt="Image 4" class="gallery-image">
-              <div class="hover-text">Placeholder Text</div>
-            </div>
-            <!-- Slide 5 -->
-            <div class="slide">
-              <img src="img/Content Gallery/CG-15.png" alt="Image 5" class="gallery-image">
-              <div class="hover-text">Placeholder Text</div>
-            </div>
-            <!-- Slide 6 -->
-            <div class="slide">
-              <img src="img/Content Gallery/CG-16.png" alt="Image 6" class="gallery-image">
-              <div class="hover-text">Placeholder Text</div>
-            </div>
-            <!-- Slide 7 -->
-            <div class="slide">
-              <img src="img/Content Gallery/CG-17.png" alt="Image 7" class="gallery-image">
-              <div class="hover-text">Placeholder Text</div>
-            </div>
-            <!-- Slide 8 -->
-            <div class="slide">
-              <img src="img/Content Gallery/CG-18.png" alt="Image 8" class="gallery-image">
-              <div class="hover-text">Placeholder Text</div>
-            </div>
-            <!-- Slide 9 -->
-            <div class="slide">
-              <img src="img/Content Gallery/CG-19.png" alt="Image 9" class="gallery-image">
-              <div class="hover-text">Placeholder Text</div>
-            </div>
-            <!-- Slide 10 -->
-            <div class="slide">
-              <img src="img/Content Gallery/CG-20.png" alt="Image 10" class="gallery-image">
-              <div class="hover-text">Placeholder Text</div>
-            </div>
-            <!-- Slide 11 -->
-            <div class="slide">
-              <img src="img/Content Gallery/CG-21.png" alt="Image 11" class="gallery-image">
-              <div class="hover-text">Placeholder Text</div>
-            </div>
-            <!-- Slide 12 -->
-            <div class="slide">
-              <img src="img/Content Gallery/CG-22.png" alt="Image 12" class="gallery-image">
-              <div class="hover-text">Placeholder Text</div>
-            </div>
-            <!-- ... Repeat the slide structure for the other images ... -->
+        <div class="gallery">
+          <div class="gallery-item" onclick="openModal(0)">
+            <img src="img/Content Gallery/CG-11.png" alt="Image 1">
+            <div class="hover-text">Your text here</div>
           </div>
-          <button class="arrow arrow-left">←</button>
-          <button class="arrow arrow-right">→</button>
+          <div class="gallery-item" onclick="openModal(1)">
+            <img src="img/Content Gallery/CG-12.png" alt="Image 2">
+            <div class="hover-text">Your text here</div>
+          </div>
+          <div class="gallery-item" onclick="openModal(2)">
+            <img src="img/Content Gallery/CG-13.png" alt="Image 3">
+            <div class="hover-text">Your text here</div>
+          </div>
         </div>
         <div class="modal-gallery" id="modal-gallery">
           <img src="" alt="Large Image" id="large-image">
