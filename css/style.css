@@ -408,6 +408,10 @@ section.resume-section .resume-item .resume-date {
         flex: 0 0 100%;
         /* Full width on mobile */
     }
+
+    .arrow {
+        display: none;
+    }
 }
 
 /* Display arrows on larger screens */
