@@ -322,6 +322,7 @@ section.resume-section .resume-item .resume-date {
     gap: 20px;
     /* Space between images */
     padding-bottom: 20px;
+    columns: 3 200px;
 }
 
 /* Individual gallery item */
