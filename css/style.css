@@ -576,10 +576,7 @@ section.resume-section .resume-item .resume-date {
 ======================================================*/
 
 #portfolio {
-    background-image: url(img/Dark-Blue-Leaf-Background.png) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background: url(img/Dark-Blue-Leaf-Background.png) no-repeat center center fixed;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -589,6 +586,9 @@ section.resume-section .resume-item .resume-date {
     max-width: 100% !important;
     width: 100% !important;
     background-color: #333;
+    /* Dark background color */
+    color: #fff;
+    /* White text color */
 }
 
 .port-head-cont {
@@ -619,7 +619,8 @@ section.resume-section .resume-item .resume-date {
     height: 100%;
     transition: all ease 0.5s;
     opacity: 0;
-    background: #317bc5;
+    background: rgba(0, 0, 0, 0.7);
+    /* Dark overlay on hover */
 }
 
 #portfolio .portfolio-item .portfolio-link .caption-port:hover {
@@ -696,21 +697,10 @@ section.resume-section .resume-item .resume-date {
     opacity: 0.3;
 }
 
-.portfolio-modal .close-modal .lr {
-    z-index: 1051;
-    width: 1px;
-    height: 75px;
-    margin-left: 35px;
-    transform: rotate(45deg);
-    background-color: #2C3E50;
-}
-
+.portfolio-modal .close-modal .lr,
 .portfolio-modal .close-modal .lr .rl {
-    z-index: 1052;
-    width: 1px;
-    height: 75px;
-    transform: rotate(90deg);
-    background-color: #2C3E50;
+    background-color: #fff;
+    /* White color for close button */
 }
 
 .portfolio-modal .modal-backdrop {
@@ -782,7 +772,7 @@ section.resume-section .resume-item .resume-date {
                       AWARD
 ======================================================*/
 #awards {
-    background-image: url(../img/Dark-Blue-Leaf-Background.png) no-repeat center center fixed;
+    background-image: url(img/Dark-Blue-Leaf-Background.png) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
